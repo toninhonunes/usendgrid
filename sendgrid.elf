@@ -1,0 +1,1142 @@
+EurekaLog 6.0.1
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Sun, 26 Nov 2017 12:53:43 -0300
+  1.2 Name/Description: sendgrid.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Sun, 26 Nov 2017 12:53:42 -0300
+  1.6 Up Time         : 33 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Sun, 26 Nov 2017 12:54:16 -0300
+  2.2 Address       : 004FA71B
+  2.3 Module Name   : sendgrid.exe
+  2.4 Module Version: 
+  2.5 Type          : EIdHTTPProtocolException
+  2.6 Message       : HTTP/1.1 400 Bad Request.
+  2.7 ID            : D081
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : DEVELOPERXP
+  3.2 Name      : DEVELOPERXP
+  3.3 Email     : 
+  3.4 Company   : DESENVOLVIMENTO WINDOWS
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+----------------------------
+  4.1 Form Class   : TForm1
+  4.2 Form Text    : Form1
+  4.3 Control Class: TButton
+  4.4 Control Text : Enviar
+
+Computer:
+-------------------------------------------------------------------------------------------
+  5.1 Name          : DEVELOPER
+  5.2 Total Memory  : 2047 Mb
+  5.3 Free Memory   : 792 Mb
+  5.4 Total Disk    : 119,99 Gb
+  5.5 Free Disk     : 53,45 Gb
+  5.6 System Up Time: 22 hours, 14 minutes, 58 seconds
+  5.7 Processor     : Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz
+  5.8 Display Mode  : 1360 x 768, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : VMware SVGA II (driver 12.1.8.0 - RAM 128 MB)
+  5.11 Printer      : TP PS Driver 5D2035B227C14381BFC20F90073B1F86 (driver 6.0.6000.16386)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Portuguese
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 192.168.025.079
+  7.2 Submask   : 000.000.000.000 - 255.255.255.000
+  7.3 Gateway   : 000.000.000.000 - 192.168.025.003
+  7.4 DNS 1     : 000.000.000.000 - 192.168.025.003
+  7.5 DNS 2     : 000.000.000.000 - 200.175.005.139
+  7.6 DHCP      : ON              - ON             
+
+Call Stack Information:
+-----------------------------------------------------------------------------------
+|Address |Module      |Unit         |Class    |Procedure/Method            |Line  |
+-----------------------------------------------------------------------------------
+|Running Thread: ID=4924; Priority=0; Class=; [Main]                              |
+|---------------------------------------------------------------------------------|
+|004FD6ED|sendgrid.exe|usendgrid.pas|TSendGrid|SendMail                    |234[5]|
+|004FD65C|sendgrid.exe|usendgrid.pas|TSendGrid|SendMail                    |229[0]|
+|004FDA58|sendgrid.exe|Unit1.pas    |TForm1   |Button2Click                |50[12]|
+|7E3799D3|user32.dll  |             |         |NotifyWinEvent              |      |
+|7E3799CB|user32.dll  |             |         |NotifyWinEvent              |      |
+|7C90ECBA|ntdll.dll   |             |         |RtlMultiByteToUnicodeN      |      |
+|7C90EB94|ntdll.dll   |             |         |RtlAnsiStringToUnicodeString|      |
+|7C90D328|ntdll.dll   |             |         |ZwFindAtom                  |      |
+|7E37A97D|user32.dll  |             |         |CallWindowProcA             |      |
+|7E379719|user32.dll  |             |         |PtInRect                    |      |
+|7E37F94F|user32.dll  |             |         |DrawFocusRect               |      |
+|7E3792DE|user32.dll  |             |         |SendMessageW                |      |
+|7E37929A|user32.dll  |             |         |SendMessageW                |      |
+|7E37A993|user32.dll  |             |         |CallWindowProcA             |      |
+|7E37A97D|user32.dll  |             |         |CallWindowProcA             |      |
+|7C802550|kernel32.dll|             |         |WaitForSingleObjectEx       |      |
+|7C80253D|kernel32.dll|             |         |WaitForSingleObject         |      |
+|7E3777F2|user32.dll  |             |         |PostThreadMessageW          |      |
+|7C90DA28|ntdll.dll   |             |         |ZwReleaseMutant             |      |
+|7C8024C1|kernel32.dll|             |         |ReleaseMutex                |      |
+|7C9010E0|ntdll.dll   |             |         |RtlLeaveCriticalSection     |      |
+|7E3694DA|user32.dll  |             |         |GetCapture                  |      |
+|7E37B3FC|user32.dll  |             |         |CallNextHookEx              |      |
+|7E3696C2|user32.dll  |             |         |DispatchMessageA            |      |
+|7E3696B8|user32.dll  |             |         |DispatchMessageA            |      |
+|004FE29F|sendgrid.exe|sendgrid.dpr |         |                            |15[3] |
+|7C90DCB8|ntdll.dll   |             |         |ZwSetInformationThread      |      |
+-----------------------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                                         |Description                                                       |Version         |Size   |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|sendgrid.exe                                 |                                                                  |                |1191936|2017-11-26 12:53:44|C:\dlib\sendgrid                                                                                    |
+|00F80000|api-ms-win-core-string-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00F90000|api-ms-win-core-errorhandling-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FA0000|api-ms-win-core-file-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |21696  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FB0000|api-ms-win-core-timezone-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FC0000|api-ms-win-core-namedpipe-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FD0000|api-ms-win-core-handle-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FE0000|api-ms-win-core-file-l2-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FF0000|api-ms-win-core-heap-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01000000|api-ms-win-core-libraryloader-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01010000|api-ms-win-core-synch-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01020000|api-ms-win-core-processthreads-l1-1-0.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01030000|api-ms-win-core-processenvironment-l1-1-0.dll|ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01040000|api-ms-win-core-localization-l1-2-0.dll      |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01050000|api-ms-win-core-datetime-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01060000|api-ms-win-core-sysinfo-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01070000|api-ms-win-core-synch-l1-2-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01080000|api-ms-win-core-console-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01090000|api-ms-win-core-debug-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010A0000|api-ms-win-core-processthreads-l1-1-1.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010B0000|api-ms-win-core-file-l1-2-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010C0000|api-ms-win-core-profile-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010D0000|api-ms-win-core-memory-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010E0000|api-ms-win-core-util-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010F0000|api-ms-win-core-rtlsupport-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01100000|api-ms-win-core-interlocked-l1-1-0.dll       |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01110000|EFACli.dll                                   |Symantec Extended File Attributes                                 |7.1.0.46        |120968 |2017-11-10 20:31:08|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|011A0000|api-ms-win-crt-runtime-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22720  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02980000|MSVCP140.dll                                 |Microsoft® C Runtime Library                                      |14.0.24123.0    |440120 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|029F0000|VCRUNTIME140.dll                             |Microsoft® C Runtime Library                                      |14.0.24123.0    |83792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A10000|api-ms-win-crt-string-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A20000|api-ms-win-crt-heap-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A30000|api-ms-win-crt-stdio-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A40000|api-ms-win-crt-convert-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22208  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A50000|api-ms-win-crt-locale-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A60000|api-ms-win-crt-math-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |28864  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A70000|api-ms-win-crt-multibyte-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |25792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A80000|api-ms-win-crt-time-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A90000|api-ms-win-crt-filesystem-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AA0000|api-ms-win-crt-environment-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AB0000|api-ms-win-crt-utility-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AF0000|TortoiseSVN32.dll                            |TortoiseSVN shell extension client                                |1.8.4.24972     |444144 |2013-11-24 12:49:00|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02B70000|libsvn_tsvn32.dll                            |Subversion library dll built for TortoiseSVN                      |1.8.5.34819     |3510512|2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02EE0000|MSVCR110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |875472 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|02FD0000|intl3_tsvn32.dll                             |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME        |0.14.6.0        |46320  |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02FF0000|libsasl32.dll                                |                                                                  |2.1.24.0        |71408  |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|03020000|MSVCP110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |535008 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|030B0000|TortoiseGitStub32.dll                        |TortoiseGit shell extension client                                |1.8.11.0        |79208  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|030E0000|TortoiseGit32.dll                            |TortoiseGit shell extension client                                |1.8.11.0        |488808 |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03180000|libgit232_tgit.dll                           |libgit2 - the Git linkable library                                |0.21.0.0        |592232 |2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03230000|zlib132_tgit.dll                             |zlib data compression library                                     |1.2.8.0         |76648  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03260000|MSVCR120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |970912 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03350000|gitdll32.dll                                 |libgit (based on git version 1.9.0) implementation for TortoiseGit|1.8.11.0        |1543016|2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03530000|MSVCP120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |455328 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03740000|IdnDL.dll                                    |Downlevel DLL                                                     |6.0.5441.0      |26112  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|03760000|Normaliz.dll                                 |Unicode Normalization DLL                                         |6.0.5441.0      |23552  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|03B20000|ssleay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |265216 |2012-05-10 22:10:50|C:\WINDOWS\system32                                                                                 |
+|03E20000|ccLib.dll                                    |Symantec Library                                                  |15.0.0.80       |697480 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|03FD0000|xpsp2res.dll                                 |Mensagens do Service Pack 2                                       |5.1.2600.5512   |2945536|2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|042A0000|libeay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |1178112|2012-05-10 22:10:36|C:\WINDOWS\system32                                                                                 |
+|05940000|TortoiseStub32.dll                           |                                                                  |1.8.4.24972     |65264  |2013-11-24 12:48:58|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|05960000|TortoiseOverlays.dll                         |TortoiseSVN overlay handler shim                                  |1.1.3.21564     |64792  |2011-06-13 10:20:44|C:\Arquivos de programas\Arquivos comuns\TortoiseOverlays                                           |
+|10000000|ucrtbase.dll                                 |Microsoft® C Runtime Library                                      |10.0.14393.33   |917184 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|4D5A0000|WINHTTP.dll                                  |Windows HTTP Services                                             |5.1.2600.6175   |354816 |2011-11-16 11:20:50|C:\WINDOWS\system32                                                                                 |
+|4EB60000|gdiplus.dll                                  |Microsoft GDI+                                                    |5.2.6002.23084  |1748992|2013-04-10 07:46:06|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550       |
+|5B1C0000|uxtheme.dll                                  |Biblioteca UxTheme Microsoft                                      |6.0.2900.5512   |219648 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|5BCB0000|NETAPI32.dll                                 |Net Win32 API DLL                                                 |5.1.2600.6260   |339968 |2012-07-06 10:58:06|C:\WINDOWS\system32                                                                                 |
+|5D510000|comctl32.dll                                 |Common Controls Library                                           |5.82.2900.6028  |617472 |2010-08-23 13:12:00|C:\WINDOWS\system32                                                                                 |
+|60B30000|hnetcfg.dll                                  |Gerenciador de configurações de rede doméstica                    |5.1.2600.5512   |346624 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|68000000|rsaenh.dll                                   |Microsoft Enhanced Cryptographic Provider                         |5.1.2600.5507   |208384 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|6AD00000|ccSet.dll                                    |Symantec Settings Manager Engine                                  |15.0.0.80       |356488 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6ADE0000|ccVrTrst.dll                                 |Symantec Trust Validation Engine                                  |15.0.0.80       |94856  |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6EE60000|libaprutil_tsvn32.dll                        |Apache Portable Runtime Utility Library                           |1.5.2.0         |221936 |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6EEC0000|libapr_tsvn32.dll                            |Apache Portable Runtime Library                                   |1.4.8.0         |143088 |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6F080000|buShell.dll                                  |Backup Shell                                                      |10.6.1.3        |2108024|2017-11-10 20:28:30|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|71A10000|MSWSOCK.dll                                  |Fornecedor de serviços do Microsoft Windows Sockets 2.0           |5.1.2600.5625   |247808 |2009-03-21 14:20:14|C:\WINDOWS\system32                                                                                 |
+|71A50000|wshtcpip.dll                                 |Windows Sockets Helper DLL                                        |5.1.2600.5512   |19456  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71A60000|WS2HELP.dll                                  |DLL de ajuda do Windows Socket 2.0 para Windows NT                |5.1.2600.5512   |19968  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A70000|WS2_32.dll                                   |Windows Socket 2.0 32-Bit DLL                                     |5.1.2600.5512   |82432  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A90000|wsock32.dll                                  |DLL de soquete para Windows de 32 bits                            |5.1.2600.5512   |25088  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71F50000|security.dll                                 |Security Support Provider Interface                               |5.1.2600.5512   |5632   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|72FB0000|winspool.drv                                 |Driver de spooler do Windows                                      |5.1.2600.5512   |146944 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll                                    |DLL de servidor MSCTF                                             |5.1.2600.5512   |297984 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll                                 |DLL de diálogos comuns                                            |6.0.2900.5512   |275968 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76970000|ntshrui.dll                                  |Extensões do Shell para compartilhamento                          |5.1.2600.5512   |145408 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|769A0000|USERENV.dll                                  |Userenv                                                           |5.1.2600.5512   |732160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76B00000|ATL.DLL                                      |ATL Module for Windows XP (Unicode)                               |3.5.2284.2      |58880  |2009-07-17 16:03:30|C:\WINDOWS\system32                                                                                 |
+|76BD0000|PSAPI.DLL                                    |Process Status Helper                                             |5.1.2600.5512   |23040  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76D40000|iphlpapi.dll                                 |IP Helper API                                                     |5.1.2600.5512   |95744  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76F00000|DNSAPI.dll                                   |DNS Client API DLL                                                |5.1.2600.6089   |149504 |2011-03-03 03:53:36|C:\WINDOWS\system32                                                                                 |
+|76F40000|WLDAP32.dll                                  |DLL da API LDAP Win32                                             |5.1.2600.5512   |172544 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FA0000|rasadhlp.dll                                 |Remote Access AutoDial Helper                                     |5.1.2600.5512   |7680   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FB0000|CLBCATQ.DLL                                  |                                                                  |2001.12.4414.700|498688 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77030000|COMRes.dll                                   |                                                                  |2001.12.4414.700|821760 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77100000|oleaut32.dll                                 |                                                                  |5.1.2600.6341   |552448 |2013-01-26 00:55:46|C:\WINDOWS\system32                                                                                 |
+|77190000|WININET.dll                                  |Internet Extensions para Win32                                    |6.0.2900.5512   |668160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|773B0000|comctl32.dll                                 |User Experience Controls Library                                  |6.0.2900.6028   |1054208|2010-08-23 13:11:58|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202|
+|774C0000|ole32.dll                                    |Microsoft OLE para Windows e Windows NT                           |5.1.2600.6435   |1289216|2013-08-05 10:30:16|C:\WINDOWS\system32                                                                                 |
+|77900000|SETUPAPI.dll                                 |API de instalação do Windows                                      |5.1.2600.5512   |995328 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77A60000|CRYPT32.dll                                  |Crypto API32                                                      |5.131.2600.6459 |609280 |2013-10-07 07:59:58|C:\WINDOWS\system32                                                                                 |
+|77B00000|MSASN1.dll                                   |ASN.1 Runtime APIs                                                |5.1.2600.5875   |58880  |2009-09-04 18:04:40|C:\WINDOWS\system32                                                                                 |
+|77B20000|appHelp.dll                                  |Application Compatibility Client Library                          |5.1.2600.5512   |125952 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BE0000|version.dll                                  |Version Checking and File Installation Libraries                  |5.1.2600.5512   |18944  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BF0000|msvcrt.dll                                   |Windows NT CRT DLL                                                |7.0.2600.5512   |343040 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77DB0000|RPCRT4.dll                                   |Remote Procedure Call Runtime                                     |5.1.2600.6477   |591360 |2013-11-07 02:37:58|C:\WINDOWS\system32                                                                                 |
+|77E50000|GDI32.dll                                    |GDI Client DLL                                                    |5.1.2600.6460   |287744 |2013-10-09 10:13:12|C:\WINDOWS\system32                                                                                 |
+|77EA0000|SHLWAPI.dll                                  |Biblioteca de utilitário abreviado para Shell                     |6.0.2900.5912   |474112 |2009-12-08 06:24:26|C:\WINDOWS\system32                                                                                 |
+|77F20000|Secur32.dll                                  |Security Support Provider Interface                               |5.1.2600.5834   |56832  |2009-06-25 05:41:44|C:\WINDOWS\system32                                                                                 |
+|77F50000|advapi32.dll                                 |API de base do Windows 32 avançada                                |5.1.2600.5755   |683520 |2009-02-09 07:53:26|C:\WINDOWS\system32                                                                                 |
+|78520000|MSVCR90.dll                                  |Microsoft® C Runtime Library                                      |9.0.30729.4148  |653120 |2009-07-12 00:02:02|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e              |
+|7C800000|kernel32.dll                                 |DLL cliente da API BASE do Windows NT                             |5.1.2600.6532   |1032192|2014-03-12 07:47:44|C:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll                                    |DLL de nível do NT                                                |5.1.2600.6055   |734208 |2010-12-09 12:15:18|C:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll                                  |DLL comum do Shell do Windows                                     |6.0.2900.6242   |8493568|2012-06-08 11:24:24|C:\WINDOWS\system32                                                                                 |
+|7E360000|user32.dll                                   |DLL de Cliente API de usuário Windows XP                          |5.1.2600.5512   |579072 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                     |Description                                   |Version      |Memory   |Priority|Threads|Path                                                                                      |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System                   |                                              |             |270336   |Normal  |64     |                                                                                          |
+|184 |DpHostW.exe              |DigitalPersona Local Host                     |4.5.0.2213   |7229440  |Normal  |13     |C:\Arquivos de programas\DigitalPersona\Bin                                               |
+|416 |TPAutoConnSvc.exe        |ThinPrint AutoConnect printer creation service|10.2.564.1   |7245824  |Normal  |5      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|624 |dxp01XPSWinService.exe   |dxp01XPSWinService                            |0.3.1025.0   |1417216  |Normal  |2      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|664 |fbguard.exe              |Firebird SQL Server                           |2.5.7.27050  |2805760  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|668 |dxp01USBPrinterStatus.exe|dxp01USBPrinterStatus                         |0.3.1025.0   |3133440  |Normal  |1      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|728 |smss.exe                 |                                              |             |446464   |Normal  |3      |\SystemRoot\System32                                                                      |
+|736 |fbguard.exe              |Firebird SQL Server                           |2.1.7.18553  |2703360  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|836 |winlogon.exe             |                                              |             |7159808  |High    |18     |C:\WINDOWS\system32                                                                       |
+|884 |services.exe             |Aplicativo de serviços e controle             |5.1.2600.5755|4485120  |Normal  |16     |C:\WINDOWS\system32                                                                       |
+|896 |lsass.exe                |LSA Shell (Export Version)                    |5.1.2600.5512|9777152  |Normal  |23     |C:\WINDOWS\system32                                                                       |
+|1060|vmacthlp.exe             |VMware Activation Helper                      |10.0.12.325  |2666496  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|1084|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|5554176  |Normal  |21     |C:\WINDOWS\system32                                                                       |
+|1104|fbserver.exe             |Firebird SQL Server                           |2.1.7.18553  |7950336  |Normal  |7      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|1240|firebird.exe             |Firebird SQL Server                           |3.0.1.32609  |6602752  |Normal  |6      |C:\Arquivos de programas\Firebird\Firebird_3_0                                            |
+|1316|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|34451456 |Normal  |80     |C:\WINDOWS\System32                                                                       |
+|1360|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3461120  |Normal  |5      |C:\WINDOWS\system32                                                                       |
+|1464|vcsFPService.exe         |Validity Sensors Fingerprint Service          |4.3.108.0    |6361088  |Normal  |6      |C:\WINDOWS\system32                                                                       |
+|1556|mdm.exe                  |Machine Debug Manager                         |7.10.3077.0  |2809856  |Normal  |4      |C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\VS7Debug                        |
+|1608|notepad++.exe            |Notepad++ : a free (GNU) source code editor   |7.3.3.0      |1585152  |Normal  |2      |C:\Arquivos de programas\Notepad++                                                        |
+|1740|Explorer.EXE             |Windows Explorer                              |6.0.2900.5512|39682048 |Normal  |16     |C:\WINDOWS                                                                                |
+|1844|N360.exe                 |Norton 360                                    |15.0.0.80    |43659264 |Normal  |77     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|2028|spoolsv.exe              |Spooler SubSystem App                         |5.1.2600.6024|12558336 |Normal  |18     |C:\WINDOWS\system32                                                                       |
+|2136|NetTimeService.exe       |Network Time Synchronizer - NT Service        |3.1.4.220    |2400256  |Normal  |7      |C:\Arquivos de programas\NetTime                                                          |
+|2432|rundll32.exe             |Executa uma DLL como um aplicativo            |5.1.2600.5512|4923392  |Normal  |4      |C:\WINDOWS\system32                                                                       |
+|2568|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|7913472  |Normal  |6      |C:\WINDOWS\system32                                                                       |
+|2592|TeamViewer_Service.exe   |TeamViewer 10                                 |10.0.47484.0 |13058048 |Normal  |19     |C:\Arquivos de programas\TeamViewer                                                       |
+|2616|VGAuthService.exe        |VMware Guest Authentication Service           |10.0.12.30580|9273344  |Normal  |2      |C:\Arquivos de programas\VMware\VMware Tools\VMware VGAuth                                |
+|2672|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |19243008 |High    |8      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|2860|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|9818112  |Normal  |3      |C:\WINDOWS\system32                                                                       |
+|2976|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3575808  |Normal  |8      |C:\WINDOWS\System32                                                                       |
+|3060|wscntfy.exe              |Windows Security Center Notification App      |5.1.2600.5512|2486272  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3072|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |13201408 |Normal  |5      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3140|TGitCache.exe            |TortoiseGit status cache                      |1.8.11.0     |9613312  |Normal  |9      |C:\Arquivos de programas\TortoiseGit\bin                                                  |
+|3160|delphi32.exe             |Delphi-32 Development Environment             |7.0.8.1      |96186368 |Normal  |13     |C:\Arquivos de programas\Borland\Delphi7\Bin                                              |
+|3444|TeamViewer.exe           |TeamViewer 10                                 |10.0.47484.0 |3026944  |Normal  |11     |C:\Arquivos de programas\TeamViewer                                                       |
+|3528|TSVNCache.exe            |TortoiseSVN status cache                      |1.8.4.24972  |7499776  |Normal  |10     |C:\Arquivos de programas\TortoiseSVN\bin                                                  |
+|3540|NetTime.exe              |Network Time Synchronizer                     |3.1.4.220    |1310720  |Normal  |3      |C:\Arquivos de programas\NetTime                                                          |
+|3648|fbserver.exe             |Firebird SQL Server                           |2.5.7.27050  |7667712  |Normal  |5      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|3712|ctfmon.exe               |CTF Loader                                    |5.1.2600.5512|3440640  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3728|IBExpert.exe             |IBExpert IDE                                  |2017.10.1.1  |18419712 |Normal  |5      |C:\Arquivos de programas\HK-Software\IBExpert                                             |
+|3736|TPAutoConnect.exe        |ThinPrint AutoConnect component               |10.2.909.1   |9146368  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3808|N360.exe                 |Norton 360                                    |15.0.0.80    |39784448 |Normal  |31     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|4056|tv_w32.exe               |TeamViewer 10                                 |10.0.47484.0 |3411968  |Normal  |1      |C:\Arquivos de programas\TeamViewer                                                       |
+|4104|firefox.exe              |Firefox                                       |52.5.0.6520  |429060096|Normal  |66     |C:\Arquivos de programas\Mozilla Firefox                                                  |
+|4504|sendgrid.exe             |                                              |             |26034176 |Normal  |8      |C:\dlib\sendgrid                                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-------------------------------------------------------------------------------
+; IdHTTP.CheckException (Line=0 - Offset=0)
+; -----------------------------------------
+004FA6FB  xor     ecx, ecx
+004FA6FD  mov     eax, [ebp-$04]
+004FA700  call    IdGlobalProtocols.ReadStringAsCharset
+004FA705  mov     eax, [ebp-$14]
+004FA708  push    eax
+004FA709  mov     eax, [ebp+$08]
+004FA70C  mov     ecx, [eax-$0C]
+004FA70F  mov     dl, $01
+004FA711  mov     eax, dword ptr [EIdHTTPProtocolException]
+004FA716  call    IdHTTP.EIdHTTPProtocolException.CreateError
+004FA71B  call    System._RaiseExcept                          ; <-- EXCEPTION
+004FA720  xor     eax, eax
+004FA722  pop     edx
+004FA723  pop     ecx
+004FA724  pop     ecx
+004FA725  mov     fs:[eax], edx
+004FA728  push    $004FA74F                                    ; '3ÀZYYd‰.hr§O'
+004FA72D  mov     al, byte ptr [ebp-$09]
+004FA730  or      al, byte ptr [ebp-$0A]
+004FA733  jz      IdHTTP.CheckException
+004FA735  mov     eax, [ebp+$08]
+
+Registers:
+-----------------------------
+EAX: 00AEAEC4   EDI: 0012F530
+EBX: FFFFFFFF   ESI: 00000000
+ECX: 00000000   ESP: 0012F494
+EDX: 004FA720   EIP: 004FA71B
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F494: 0012F4A0   004FA71B: E8 E4 9E F0 FF 33 C0 5A 59 59 64 89 10 68 4F A7  .....3.ZYYd..hO.
+0012F498: 00404538   004FA72B: 4F 00 8A 45 F7 0A 45 F6 74 12 8B 45 08 8B 40 FC  O..E..E.t..E..@.
+0012F49C: 0012F4D8   004FA73B: 8B 40 0C 8B 55 F8 89 90 B8 00 00 00 C3 E9 BB 9D  .@..U...........
+0012F4A0: 0012F4AC   004FA74B: F0 FF EB DE 33 C0 5A 59 59 64 89 10 68 72 A7 4F  ....3.ZYYd..hr.O
+0012F4A4: 00404538   004FA75B: 00 80 7D F7 00 74 08 8B 45 FC E8 4E 96 F0 FF C3  ..}..t..E..N....
+0012F4A8: 0012F4D8   004FA76B: E9 98 9D F0 FF EB EA 33 C0 5A 59 59 64 89 10 68  .......3.ZYYd..h
+0012F4AC: 0012F4E4   004FA77B: 94 A7 4F 00 8D 45 EC BA 02 00 00 00 E8 48 A5 F0  ..O..E.......H..
+0012F4B0: 00404538   004FA78B: FF C3 E9 76 9D F0 FF EB EB 5F 5E 5B 8B E5 5D C3  ...v....._^[..].
+0012F4B4: 0012F4D8   004FA79B: 90 55 8B EC 51 53 56 57 8B 45 08 8B 40 FC 8B 40  .U..QSVW.E..@..@
+0012F4B8: 0012F530   004FA7AB: 0C 8B 90 B8 00 00 00 89 55 FC 8B 55 08 33 D2 89  ........U..U.3..
+0012F4BC: 00000000   004FA7BB: 90 B8 00 00 00 33 D2 55 68 5E A8 4F 00 64 FF 32  .....3.Uh^.O.d.2
+0012F4C0: FFFFFFFF   004FA7CB: 64 89 22 33 D2 55 68 02 A8 4F 00 64 FF 32 64 89  d."3.Uh..O.d.2d.
+0012F4C4: 00000000   004FA7DB: 22 8B 55 08 8B C8 8B 45 08 8B 40 FC 8B 50 08 8B  ".U....E..@..P..
+0012F4C8: 00000000   004FA7EB: 45 08 8B 40 FC 8B 40 04 E8 F4 DA FF FF 33 C0 5A  E..@..@......3.Z
+0012F4CC: 01010000   004FA7FB: 59 59 64 89 10 EB 3C E9 79 9B F0 FF 01 00 00 00  YYd...<.y.......
+0012F4D0: 00AE885C   004FA80B: 84 9F 40 00 13 A8 4F 00 89 C3 8B 45 08 8B 40 FC  ..@...O....E..@.
+
+
+
+EurekaLog 6.0.1
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Sun, 26 Nov 2017 12:55:50 -0300
+  1.2 Name/Description: sendgrid.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Sun, 26 Nov 2017 12:55:49 -0300
+  1.6 Up Time         : 14 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Sun, 26 Nov 2017 12:56:04 -0300
+  2.2 Address       : 004FA71B
+  2.3 Module Name   : sendgrid.exe
+  2.4 Module Version: 
+  2.5 Type          : EIdHTTPProtocolException
+  2.6 Message       : HTTP/1.1 400 Bad Request.
+  2.7 ID            : D081
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : DEVELOPERXP
+  3.2 Name      : DEVELOPERXP
+  3.3 Email     : 
+  3.4 Company   : DESENVOLVIMENTO WINDOWS
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+----------------------------
+  4.1 Form Class   : TForm1
+  4.2 Form Text    : Form1
+  4.3 Control Class: TButton
+  4.4 Control Text : Enviar
+
+Computer:
+-------------------------------------------------------------------------------------------
+  5.1 Name          : DEVELOPER
+  5.2 Total Memory  : 2047 Mb
+  5.3 Free Memory   : 787 Mb
+  5.4 Total Disk    : 119,99 Gb
+  5.5 Free Disk     : 53,45 Gb
+  5.6 System Up Time: 22 hours, 16 minutes, 46 seconds
+  5.7 Processor     : Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz
+  5.8 Display Mode  : 1360 x 768, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : VMware SVGA II (driver 12.1.8.0 - RAM 128 MB)
+  5.11 Printer      : TP PS Driver 5D2035B227C14381BFC20F90073B1F86 (driver 6.0.6000.16386)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Portuguese
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 192.168.025.079
+  7.2 Submask   : 000.000.000.000 - 255.255.255.000
+  7.3 Gateway   : 000.000.000.000 - 192.168.025.003
+  7.4 DNS 1     : 000.000.000.000 - 192.168.025.003
+  7.5 DNS 2     : 000.000.000.000 - 200.175.005.139
+  7.6 DHCP      : ON              - ON             
+
+Call Stack Information:
+-----------------------------------------------------------------------------------
+|Address |Module      |Unit         |Class    |Procedure/Method            |Line  |
+-----------------------------------------------------------------------------------
+|Running Thread: ID=5156; Priority=0; Class=; [Main]                              |
+|---------------------------------------------------------------------------------|
+|004FD6B9|sendgrid.exe|usendgrid.pas|TSendGrid|SendMail                    |233[5]|
+|004FD628|sendgrid.exe|usendgrid.pas|TSendGrid|SendMail                    |228[0]|
+|004FDA24|sendgrid.exe|Unit1.pas    |TForm1   |Button2Click                |50[12]|
+|7E3799D3|user32.dll  |             |         |NotifyWinEvent              |      |
+|7E3799CB|user32.dll  |             |         |NotifyWinEvent              |      |
+|7C90ECBA|ntdll.dll   |             |         |RtlMultiByteToUnicodeN      |      |
+|7C90EB94|ntdll.dll   |             |         |RtlAnsiStringToUnicodeString|      |
+|7C90D328|ntdll.dll   |             |         |ZwFindAtom                  |      |
+|7E37A97D|user32.dll  |             |         |CallWindowProcA             |      |
+|7E379719|user32.dll  |             |         |PtInRect                    |      |
+|7E37F94F|user32.dll  |             |         |DrawFocusRect               |      |
+|7E3792DE|user32.dll  |             |         |SendMessageW                |      |
+|7E37929A|user32.dll  |             |         |SendMessageW                |      |
+|7E37A993|user32.dll  |             |         |CallWindowProcA             |      |
+|7E37A97D|user32.dll  |             |         |CallWindowProcA             |      |
+|7C802550|kernel32.dll|             |         |WaitForSingleObjectEx       |      |
+|7C80253D|kernel32.dll|             |         |WaitForSingleObject         |      |
+|7E3777F2|user32.dll  |             |         |PostThreadMessageW          |      |
+|7C90DA28|ntdll.dll   |             |         |ZwReleaseMutant             |      |
+|7C8024C1|kernel32.dll|             |         |ReleaseMutex                |      |
+|7C9010E0|ntdll.dll   |             |         |RtlLeaveCriticalSection     |      |
+|7E3694DA|user32.dll  |             |         |GetCapture                  |      |
+|7E37B3FC|user32.dll  |             |         |CallNextHookEx              |      |
+|7E3696C2|user32.dll  |             |         |DispatchMessageA            |      |
+|7E3696B8|user32.dll  |             |         |DispatchMessageA            |      |
+|004FE26B|sendgrid.exe|sendgrid.dpr |         |                            |15[3] |
+|7C90DCB8|ntdll.dll   |             |         |ZwSetInformationThread      |      |
+-----------------------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                                         |Description                                                       |Version         |Size   |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|sendgrid.exe                                 |                                                                  |                |1191936|2017-11-26 12:55:50|C:\dlib\sendgrid                                                                                    |
+|00F80000|api-ms-win-core-string-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00F90000|api-ms-win-core-errorhandling-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FA0000|api-ms-win-core-file-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |21696  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FB0000|api-ms-win-core-timezone-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FC0000|api-ms-win-core-namedpipe-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FD0000|api-ms-win-core-handle-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FE0000|api-ms-win-core-file-l2-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FF0000|api-ms-win-core-heap-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01000000|api-ms-win-core-libraryloader-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01010000|api-ms-win-core-synch-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01020000|api-ms-win-core-processthreads-l1-1-0.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01030000|api-ms-win-core-processenvironment-l1-1-0.dll|ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01040000|api-ms-win-core-localization-l1-2-0.dll      |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01050000|api-ms-win-core-datetime-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01060000|api-ms-win-core-sysinfo-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01070000|api-ms-win-core-synch-l1-2-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01080000|api-ms-win-core-console-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01090000|api-ms-win-core-debug-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010A0000|api-ms-win-core-processthreads-l1-1-1.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010B0000|api-ms-win-core-file-l1-2-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010C0000|api-ms-win-core-profile-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010D0000|api-ms-win-core-memory-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010E0000|api-ms-win-core-util-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010F0000|api-ms-win-core-rtlsupport-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01100000|api-ms-win-core-interlocked-l1-1-0.dll       |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01110000|EFACli.dll                                   |Symantec Extended File Attributes                                 |7.1.0.46        |120968 |2017-11-10 20:31:08|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|011A0000|api-ms-win-crt-runtime-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22720  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02980000|MSVCP140.dll                                 |Microsoft® C Runtime Library                                      |14.0.24123.0    |440120 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|029F0000|VCRUNTIME140.dll                             |Microsoft® C Runtime Library                                      |14.0.24123.0    |83792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A10000|api-ms-win-crt-string-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A20000|api-ms-win-crt-heap-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A30000|api-ms-win-crt-stdio-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A40000|api-ms-win-crt-convert-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22208  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A50000|api-ms-win-crt-locale-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A60000|api-ms-win-crt-math-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |28864  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A70000|api-ms-win-crt-multibyte-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |25792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A80000|api-ms-win-crt-time-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A90000|api-ms-win-crt-filesystem-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AA0000|api-ms-win-crt-environment-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AB0000|api-ms-win-crt-utility-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AF0000|TortoiseSVN32.dll                            |TortoiseSVN shell extension client                                |1.8.4.24972     |444144 |2013-11-24 12:49:00|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02B70000|libsvn_tsvn32.dll                            |Subversion library dll built for TortoiseSVN                      |1.8.5.34819     |3510512|2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02EE0000|MSVCR110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |875472 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|02FD0000|intl3_tsvn32.dll                             |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME        |0.14.6.0        |46320  |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02FF0000|libsasl32.dll                                |                                                                  |2.1.24.0        |71408  |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|03020000|MSVCP110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |535008 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|030B0000|TortoiseGitStub32.dll                        |TortoiseGit shell extension client                                |1.8.11.0        |79208  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|030E0000|TortoiseGit32.dll                            |TortoiseGit shell extension client                                |1.8.11.0        |488808 |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03180000|libgit232_tgit.dll                           |libgit2 - the Git linkable library                                |0.21.0.0        |592232 |2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03230000|zlib132_tgit.dll                             |zlib data compression library                                     |1.2.8.0         |76648  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03260000|MSVCR120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |970912 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03350000|gitdll32.dll                                 |libgit (based on git version 1.9.0) implementation for TortoiseGit|1.8.11.0        |1543016|2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03530000|MSVCP120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |455328 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03760000|IdnDL.dll                                    |Downlevel DLL                                                     |6.0.5441.0      |26112  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|037A0000|vmhgfs.dll                                   |VMware HGFS Provider                                              |9.0.0.0         |59584  |2016-09-29 01:40:02|C:\WINDOWS\System32                                                                                 |
+|037F0000|Normaliz.dll                                 |Unicode Normalization DLL                                         |6.0.5441.0      |23552  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|03E20000|ccLib.dll                                    |Symantec Library                                                  |15.0.0.80       |697480 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|03FD0000|xpsp2res.dll                                 |Mensagens do Service Pack 2                                       |5.1.2600.5512   |2945536|2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|047C0000|libeay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |1178112|2012-05-10 22:10:36|C:\WINDOWS\system32                                                                                 |
+|04910000|ssleay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |265216 |2012-05-10 22:10:50|C:\WINDOWS\system32                                                                                 |
+|05940000|TortoiseStub32.dll                           |                                                                  |1.8.4.24972     |65264  |2013-11-24 12:48:58|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|05960000|TortoiseOverlays.dll                         |TortoiseSVN overlay handler shim                                  |1.1.3.21564     |64792  |2011-06-13 10:20:44|C:\Arquivos de programas\Arquivos comuns\TortoiseOverlays                                           |
+|10000000|ucrtbase.dll                                 |Microsoft® C Runtime Library                                      |10.0.14393.33   |917184 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|1F840000|odbcint.dll                                  |Microsoft Data Access - Recursos do ODBC                          |3.525.1117.0    |98304  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|4D5A0000|WINHTTP.dll                                  |Windows HTTP Services                                             |5.1.2600.6175   |354816 |2011-11-16 11:20:50|C:\WINDOWS\system32                                                                                 |
+|4EB60000|gdiplus.dll                                  |Microsoft GDI+                                                    |5.2.6002.23084  |1748992|2013-04-10 07:46:06|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550       |
+|5B1C0000|uxtheme.dll                                  |Biblioteca UxTheme Microsoft                                      |6.0.2900.5512   |219648 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|5BCB0000|NETAPI32.dll                                 |Net Win32 API DLL                                                 |5.1.2600.6260   |339968 |2012-07-06 10:58:06|C:\WINDOWS\system32                                                                                 |
+|5D510000|comctl32.dll                                 |Common Controls Library                                           |5.82.2900.6028  |617472 |2010-08-23 13:12:00|C:\WINDOWS\system32                                                                                 |
+|60B30000|hnetcfg.dll                                  |Gerenciador de configurações de rede doméstica                    |5.1.2600.5512   |346624 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|68000000|rsaenh.dll                                   |Microsoft Enhanced Cryptographic Provider                         |5.1.2600.5507   |208384 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|6AB30000|ccIPC.dll                                    |Symantec ccIPC Engine                                             |15.0.0.80       |186504 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6AD00000|ccSet.dll                                    |Symantec Settings Manager Engine                                  |15.0.0.80       |356488 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6ADE0000|ccVrTrst.dll                                 |Symantec Trust Validation Engine                                  |15.0.0.80       |94856  |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6EE60000|libaprutil_tsvn32.dll                        |Apache Portable Runtime Utility Library                           |1.5.2.0         |221936 |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6EEC0000|libapr_tsvn32.dll                            |Apache Portable Runtime Library                                   |1.4.8.0         |143088 |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6EF00000|buComm.dll                                   |Backup Common                                                     |10.6.1.3        |409720 |2017-11-10 20:28:30|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6F080000|buShell.dll                                  |Backup Shell                                                      |10.6.1.3        |2108024|2017-11-10 20:28:30|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|71A10000|MSWSOCK.dll                                  |Fornecedor de serviços do Microsoft Windows Sockets 2.0           |5.1.2600.5625   |247808 |2009-03-21 14:20:14|C:\WINDOWS\system32                                                                                 |
+|71A50000|wshtcpip.dll                                 |Windows Sockets Helper DLL                                        |5.1.2600.5512   |19456  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71A60000|WS2HELP.dll                                  |DLL de ajuda do Windows Socket 2.0 para Windows NT                |5.1.2600.5512   |19968  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A70000|WS2_32.dll                                   |Windows Socket 2.0 32-Bit DLL                                     |5.1.2600.5512   |82432  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A90000|wsock32.dll                                  |DLL de soquete para Windows de 32 bits                            |5.1.2600.5512   |25088  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71AE0000|MPR.dll                                      |DLL do roteador provedor múltiplo                                 |5.1.2600.5512   |59904  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71BC0000|SAMLIB.dll                                   |SAM Library DLL                                                   |5.1.2600.5512   |64000  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71BE0000|ntlanman.dll                                 |Microsoft(R) Lan Manager                                          |5.1.2600.5512   |44032  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71C50000|NETRAP.dll                                   |Net Remote Admin Protocol DLL                                     |5.1.2600.5512   |11776  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71C60000|NETUI1.dll                                   |NT LM UI Common Code - Networking classes                         |5.1.2600.5512   |245760 |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71CA0000|NETUI0.dll                                   |Código comum da interface gráfica de usuário do LM do NT          |5.1.2600.5512   |81920  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71F50000|security.dll                                 |Security Support Provider Interface                               |5.1.2600.5512   |5632   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|72FB0000|winspool.drv                                 |Driver de spooler do Windows                                      |5.1.2600.5512   |146944 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|74610000|ODBC32.dll                                   |Microsoft Data Access - ODBC Driver Manager                       |3.525.3012.0    |249856 |2010-11-09 11:52:36|C:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll                                    |DLL de servidor MSCTF                                             |5.1.2600.5512   |297984 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|75940000|MSGINA.dll                                   |Windows NT Logon GINA DLL                                         |5.1.2600.5512   |1000960|2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|75F30000|drprov.dll                                   |Microsoft Terminal Server Network Provider                        |5.1.2600.5512   |14336  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|75F40000|davclnt.dll                                  |DLL de cliente Web DAV                                            |5.1.2600.5512   |25600  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|76330000|WINSTA.dll                                   |Winstation Library                                                |5.1.2600.5512   |53760  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll                                 |DLL de diálogos comuns                                            |6.0.2900.5512   |275968 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76970000|ntshrui.dll                                  |Extensões do Shell para compartilhamento                          |5.1.2600.5512   |145408 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|769A0000|USERENV.dll                                  |Userenv                                                           |5.1.2600.5512   |732160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76B00000|ATL.DLL                                      |ATL Module for Windows XP (Unicode)                               |3.5.2284.2      |58880  |2009-07-17 16:03:30|C:\WINDOWS\system32                                                                                 |
+|76BD0000|PSAPI.DLL                                    |Process Status Helper                                             |5.1.2600.5512   |23040  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76C10000|WINTRUST.dll                                 |APIs de verificação de segurança da Microsoft                     |5.131.2600.6285 |177664 |2012-08-24 10:53:14|C:\WINDOWS\system32                                                                                 |
+|76C70000|IMAGEHLP.dll                                 |Windows NT Image Helper                                           |5.1.2600.6479   |150528 |2013-11-13 00:00:08|C:\WINDOWS\system32                                                                                 |
+|76D40000|iphlpapi.dll                                 |IP Helper API                                                     |5.1.2600.5512   |95744  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76F00000|DNSAPI.dll                                   |DNS Client API DLL                                                |5.1.2600.6089   |149504 |2011-03-03 03:53:36|C:\WINDOWS\system32                                                                                 |
+|76F40000|WLDAP32.dll                                  |DLL da API LDAP Win32                                             |5.1.2600.5512   |172544 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FA0000|rasadhlp.dll                                 |Remote Access AutoDial Helper                                     |5.1.2600.5512   |7680   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FB0000|CLBCATQ.DLL                                  |                                                                  |2001.12.4414.700|498688 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77030000|COMRes.dll                                   |                                                                  |2001.12.4414.700|821760 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77100000|oleaut32.dll                                 |                                                                  |5.1.2600.6341   |552448 |2013-01-26 00:55:46|C:\WINDOWS\system32                                                                                 |
+|77190000|WININET.dll                                  |Internet Extensions para Win32                                    |6.0.2900.5512   |668160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|773B0000|comctl32.dll                                 |User Experience Controls Library                                  |6.0.2900.6028   |1054208|2010-08-23 13:11:58|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202|
+|774C0000|ole32.dll                                    |Microsoft OLE para Windows e Windows NT                           |5.1.2600.6435   |1289216|2013-08-05 10:30:16|C:\WINDOWS\system32                                                                                 |
+|77900000|SETUPAPI.dll                                 |API de instalação do Windows                                      |5.1.2600.5512   |995328 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77A60000|CRYPT32.dll                                  |Crypto API32                                                      |5.131.2600.6459 |609280 |2013-10-07 07:59:58|C:\WINDOWS\system32                                                                                 |
+|77B00000|MSASN1.dll                                   |ASN.1 Runtime APIs                                                |5.1.2600.5875   |58880  |2009-09-04 18:04:40|C:\WINDOWS\system32                                                                                 |
+|77B20000|appHelp.dll                                  |Application Compatibility Client Library                          |5.1.2600.5512   |125952 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BE0000|version.dll                                  |Version Checking and File Installation Libraries                  |5.1.2600.5512   |18944  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BF0000|msvcrt.dll                                   |Windows NT CRT DLL                                                |7.0.2600.5512   |343040 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77DB0000|RPCRT4.dll                                   |Remote Procedure Call Runtime                                     |5.1.2600.6477   |591360 |2013-11-07 02:37:58|C:\WINDOWS\system32                                                                                 |
+|77E50000|GDI32.dll                                    |GDI Client DLL                                                    |5.1.2600.6460   |287744 |2013-10-09 10:13:12|C:\WINDOWS\system32                                                                                 |
+|77EA0000|SHLWAPI.dll                                  |Biblioteca de utilitário abreviado para Shell                     |6.0.2900.5912   |474112 |2009-12-08 06:24:26|C:\WINDOWS\system32                                                                                 |
+|77F20000|Secur32.dll                                  |Security Support Provider Interface                               |5.1.2600.5834   |56832  |2009-06-25 05:41:44|C:\WINDOWS\system32                                                                                 |
+|77F50000|advapi32.dll                                 |API de base do Windows 32 avançada                                |5.1.2600.5755   |683520 |2009-02-09 07:53:26|C:\WINDOWS\system32                                                                                 |
+|78520000|MSVCR90.dll                                  |Microsoft® C Runtime Library                                      |9.0.30729.4148  |653120 |2009-07-12 00:02:02|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e              |
+|7C800000|kernel32.dll                                 |DLL cliente da API BASE do Windows NT                             |5.1.2600.6532   |1032192|2014-03-12 07:47:44|C:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll                                    |DLL de nível do NT                                                |5.1.2600.6055   |734208 |2010-12-09 12:15:18|C:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll                                  |DLL comum do Shell do Windows                                     |6.0.2900.6242   |8493568|2012-06-08 11:24:24|C:\WINDOWS\system32                                                                                 |
+|7E360000|user32.dll                                   |DLL de Cliente API de usuário Windows XP                          |5.1.2600.5512   |579072 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                     |Description                                   |Version      |Memory   |Priority|Threads|Path                                                                                      |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System                   |                                              |             |270336   |Normal  |65     |                                                                                          |
+|184 |DpHostW.exe              |DigitalPersona Local Host                     |4.5.0.2213   |7229440  |Normal  |13     |C:\Arquivos de programas\DigitalPersona\Bin                                               |
+|416 |TPAutoConnSvc.exe        |ThinPrint AutoConnect printer creation service|10.2.564.1   |7245824  |Normal  |5      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|624 |dxp01XPSWinService.exe   |dxp01XPSWinService                            |0.3.1025.0   |1417216  |Normal  |2      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|664 |fbguard.exe              |Firebird SQL Server                           |2.5.7.27050  |2805760  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|668 |dxp01USBPrinterStatus.exe|dxp01USBPrinterStatus                         |0.3.1025.0   |3133440  |Normal  |1      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|728 |smss.exe                 |                                              |             |446464   |Normal  |3      |\SystemRoot\System32                                                                      |
+|736 |fbguard.exe              |Firebird SQL Server                           |2.1.7.18553  |2703360  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|836 |winlogon.exe             |                                              |             |7159808  |High    |18     |C:\WINDOWS\system32                                                                       |
+|884 |services.exe             |Aplicativo de serviços e controle             |5.1.2600.5755|4476928  |Normal  |16     |C:\WINDOWS\system32                                                                       |
+|896 |lsass.exe                |LSA Shell (Export Version)                    |5.1.2600.5512|9777152  |Normal  |23     |C:\WINDOWS\system32                                                                       |
+|1060|vmacthlp.exe             |VMware Activation Helper                      |10.0.12.325  |2666496  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|1084|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|5562368  |Normal  |22     |C:\WINDOWS\system32                                                                       |
+|1104|fbserver.exe             |Firebird SQL Server                           |2.1.7.18553  |7950336  |Normal  |7      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|1240|firebird.exe             |Firebird SQL Server                           |3.0.1.32609  |6602752  |Normal  |6      |C:\Arquivos de programas\Firebird\Firebird_3_0                                            |
+|1316|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|34525184 |Normal  |87     |C:\WINDOWS\System32                                                                       |
+|1360|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3461120  |Normal  |5      |C:\WINDOWS\system32                                                                       |
+|1464|vcsFPService.exe         |Validity Sensors Fingerprint Service          |4.3.108.0    |6361088  |Normal  |6      |C:\WINDOWS\system32                                                                       |
+|1556|mdm.exe                  |Machine Debug Manager                         |7.10.3077.0  |2809856  |Normal  |4      |C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\VS7Debug                        |
+|1608|notepad++.exe            |Notepad++ : a free (GNU) source code editor   |7.3.3.0      |1585152  |Normal  |2      |C:\Arquivos de programas\Notepad++                                                        |
+|1740|Explorer.EXE             |Windows Explorer                              |6.0.2900.5512|39694336 |Normal  |17     |C:\WINDOWS                                                                                |
+|1844|N360.exe                 |Norton 360                                    |15.0.0.80    |44797952 |Normal  |77     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|2028|spoolsv.exe              |Spooler SubSystem App                         |5.1.2600.6024|12582912 |Normal  |21     |C:\WINDOWS\system32                                                                       |
+|2136|NetTimeService.exe       |Network Time Synchronizer - NT Service        |3.1.4.220    |2400256  |Normal  |7      |C:\Arquivos de programas\NetTime                                                          |
+|2432|rundll32.exe             |Executa uma DLL como um aplicativo            |5.1.2600.5512|4923392  |Normal  |4      |C:\WINDOWS\system32                                                                       |
+|2568|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|7921664  |Normal  |7      |C:\WINDOWS\system32                                                                       |
+|2592|TeamViewer_Service.exe   |TeamViewer 10                                 |10.0.47484.0 |13058048 |Normal  |19     |C:\Arquivos de programas\TeamViewer                                                       |
+|2616|VGAuthService.exe        |VMware Guest Authentication Service           |10.0.12.30580|9273344  |Normal  |2      |C:\Arquivos de programas\VMware\VMware Tools\VMware VGAuth                                |
+|2672|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |19247104 |High    |8      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|2860|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|9818112  |Normal  |3      |C:\WINDOWS\system32                                                                       |
+|2976|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3575808  |Normal  |8      |C:\WINDOWS\System32                                                                       |
+|3060|wscntfy.exe              |Windows Security Center Notification App      |5.1.2600.5512|2486272  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3072|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |13193216 |Normal  |4      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3140|TGitCache.exe            |TortoiseGit status cache                      |1.8.11.0     |9613312  |Normal  |9      |C:\Arquivos de programas\TortoiseGit\bin                                                  |
+|3160|delphi32.exe             |Delphi-32 Development Environment             |7.0.8.1      |96743424 |Normal  |13     |C:\Arquivos de programas\Borland\Delphi7\Bin                                              |
+|3444|TeamViewer.exe           |TeamViewer 10                                 |10.0.47484.0 |3026944  |Normal  |11     |C:\Arquivos de programas\TeamViewer                                                       |
+|3528|TSVNCache.exe            |TortoiseSVN status cache                      |1.8.4.24972  |7499776  |Normal  |10     |C:\Arquivos de programas\TortoiseSVN\bin                                                  |
+|3540|NetTime.exe              |Network Time Synchronizer                     |3.1.4.220    |1318912  |Normal  |3      |C:\Arquivos de programas\NetTime                                                          |
+|3648|fbserver.exe             |Firebird SQL Server                           |2.5.7.27050  |7667712  |Normal  |5      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|3712|ctfmon.exe               |CTF Loader                                    |5.1.2600.5512|3440640  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3728|IBExpert.exe             |IBExpert IDE                                  |2017.10.1.1  |18419712 |Normal  |5      |C:\Arquivos de programas\HK-Software\IBExpert                                             |
+|3736|TPAutoConnect.exe        |ThinPrint AutoConnect component               |10.2.909.1   |9146368  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3808|N360.exe                 |Norton 360                                    |15.0.0.80    |39800832 |Normal  |33     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|4056|tv_w32.exe               |TeamViewer 10                                 |10.0.47484.0 |3411968  |Normal  |1      |C:\Arquivos de programas\TeamViewer                                                       |
+|4104|firefox.exe              |Firefox                                       |52.5.0.6520  |430735360|Normal  |66     |C:\Arquivos de programas\Mozilla Firefox                                                  |
+|4472|sendgrid.exe             |                                              |             |27480064 |Normal  |12     |C:\dlib\sendgrid                                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-------------------------------------------------------------------------------
+; IdHTTP.CheckException (Line=0 - Offset=0)
+; -----------------------------------------
+004FA6FB  xor     ecx, ecx
+004FA6FD  mov     eax, [ebp-$04]
+004FA700  call    IdGlobalProtocols.ReadStringAsCharset
+004FA705  mov     eax, [ebp-$14]
+004FA708  push    eax
+004FA709  mov     eax, [ebp+$08]
+004FA70C  mov     ecx, [eax-$0C]
+004FA70F  mov     dl, $01
+004FA711  mov     eax, dword ptr [EIdHTTPProtocolException]
+004FA716  call    IdHTTP.EIdHTTPProtocolException.CreateError
+004FA71B  call    System._RaiseExcept                          ; <-- EXCEPTION
+004FA720  xor     eax, eax
+004FA722  pop     edx
+004FA723  pop     ecx
+004FA724  pop     ecx
+004FA725  mov     fs:[eax], edx
+004FA728  push    $004FA74F                                    ; '3ÀZYYd‰.hr§O'
+004FA72D  mov     al, byte ptr [ebp-$09]
+004FA730  or      al, byte ptr [ebp-$0A]
+004FA733  jz      IdHTTP.CheckException
+004FA735  mov     eax, [ebp+$08]
+
+Registers:
+-----------------------------
+EAX: 00AEAE74   EDI: 0012F530
+EBX: FFFFFFFF   ESI: 00000000
+ECX: 00000000   ESP: 0012F494
+EDX: 004FA720   EIP: 004FA71B
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F494: 0012F4A0   004FA71B: E8 E4 9E F0 FF 33 C0 5A 59 59 64 89 10 68 4F A7  .....3.ZYYd..hO.
+0012F498: 00404538   004FA72B: 4F 00 8A 45 F7 0A 45 F6 74 12 8B 45 08 8B 40 FC  O..E..E.t..E..@.
+0012F49C: 0012F4D8   004FA73B: 8B 40 0C 8B 55 F8 89 90 B8 00 00 00 C3 E9 BB 9D  .@..U...........
+0012F4A0: 0012F4AC   004FA74B: F0 FF EB DE 33 C0 5A 59 59 64 89 10 68 72 A7 4F  ....3.ZYYd..hr.O
+0012F4A4: 00404538   004FA75B: 00 80 7D F7 00 74 08 8B 45 FC E8 4E 96 F0 FF C3  ..}..t..E..N....
+0012F4A8: 0012F4D8   004FA76B: E9 98 9D F0 FF EB EA 33 C0 5A 59 59 64 89 10 68  .......3.ZYYd..h
+0012F4AC: 0012F4E4   004FA77B: 94 A7 4F 00 8D 45 EC BA 02 00 00 00 E8 48 A5 F0  ..O..E.......H..
+0012F4B0: 00404538   004FA78B: FF C3 E9 76 9D F0 FF EB EB 5F 5E 5B 8B E5 5D C3  ...v....._^[..].
+0012F4B4: 0012F4D8   004FA79B: 90 55 8B EC 51 53 56 57 8B 45 08 8B 40 FC 8B 40  .U..QSVW.E..@..@
+0012F4B8: 0012F530   004FA7AB: 0C 8B 90 B8 00 00 00 89 55 FC 8B 55 08 33 D2 89  ........U..U.3..
+0012F4BC: 00000000   004FA7BB: 90 B8 00 00 00 33 D2 55 68 5E A8 4F 00 64 FF 32  .....3.Uh^.O.d.2
+0012F4C0: FFFFFFFF   004FA7CB: 64 89 22 33 D2 55 68 02 A8 4F 00 64 FF 32 64 89  d."3.Uh..O.d.2d.
+0012F4C4: 00000000   004FA7DB: 22 8B 55 08 8B C8 8B 45 08 8B 40 FC 8B 50 08 8B  ".U....E..@..P..
+0012F4C8: 00000000   004FA7EB: 45 08 8B 40 FC 8B 40 04 E8 F4 DA FF FF 33 C0 5A  E..@..@......3.Z
+0012F4CC: 01010000   004FA7FB: 59 59 64 89 10 EB 3C E9 79 9B F0 FF 01 00 00 00  YYd...<.y.......
+0012F4D0: 00AE880C   004FA80B: 84 9F 40 00 13 A8 4F 00 89 C3 8B 45 08 8B 40 FC  ..@...O....E..@.
+
+
+
+EurekaLog 6.0.1
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Sun, 26 Nov 2017 12:55:50 -0300
+  1.2 Name/Description: sendgrid.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Sun, 26 Nov 2017 12:55:49 -0300
+  1.6 Up Time         : 30 minutes, 8 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Sun, 26 Nov 2017 13:25:58 -0300
+  2.2 Address       : 004FA71B
+  2.3 Module Name   : sendgrid.exe
+  2.4 Module Version: 
+  2.5 Type          : EIdHTTPProtocolException
+  2.6 Message       : HTTP/1.1 400 Bad Request.
+  2.7 ID            : D081
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : DEVELOPERXP
+  3.2 Name      : DEVELOPERXP
+  3.3 Email     : 
+  3.4 Company   : DESENVOLVIMENTO WINDOWS
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+----------------------------
+  4.1 Form Class   : TForm1
+  4.2 Form Text    : Form1
+  4.3 Control Class: TButton
+  4.4 Control Text : Enviar
+
+Computer:
+-------------------------------------------------------------------------------------------
+  5.1 Name          : DEVELOPER
+  5.2 Total Memory  : 2047 Mb
+  5.3 Free Memory   : 787 Mb
+  5.4 Total Disk    : 119,99 Gb
+  5.5 Free Disk     : 53,45 Gb
+  5.6 System Up Time: 22 hours, 46 minutes, 40 seconds
+  5.7 Processor     : Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz
+  5.8 Display Mode  : 1360 x 768, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : VMware SVGA II (driver 12.1.8.0 - RAM 128 MB)
+  5.11 Printer      : TP PS Driver 5D2035B227C14381BFC20F90073B1F86 (driver 6.0.6000.16386)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Portuguese
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 192.168.025.079
+  7.2 Submask   : 000.000.000.000 - 255.255.255.000
+  7.3 Gateway   : 000.000.000.000 - 192.168.025.003
+  7.4 DNS 1     : 000.000.000.000 - 192.168.025.003
+  7.5 DNS 2     : 000.000.000.000 - 200.175.005.139
+  7.6 DHCP      : ON              - ON             
+
+Call Stack Information:
+-----------------------------------------------------------------------------------------
+|Address |Module      |Unit         |Class          |Procedure/Method            |Line  |
+-----------------------------------------------------------------------------------------
+|*Exception Thread: ID=5156; Priority=0; Class=; [Main]                                 |
+|---------------------------------------------------------------------------------------|
+|004FA71B|sendgrid.exe|IdHTTP       |               |CheckException              |      |
+|004FA544|sendgrid.exe|IdHTTP       |               |CheckException              |      |
+|004FAB88|sendgrid.exe|IdHTTP       |TIdHTTPProtocol|ProcessResponse             |      |
+|004FA8B8|sendgrid.exe|IdHTTP       |TIdHTTPProtocol|ProcessResponse             |      |
+|004FAF5A|sendgrid.exe|IdHTTP       |TIdCustomHTTP  |DoRequest                   |      |
+|004F7209|sendgrid.exe|IdHTTP       |TIdCustomHTTP  |Post                        |      |
+|004F7188|sendgrid.exe|IdHTTP       |TIdCustomHTTP  |Post                        |      |
+|004F7345|sendgrid.exe|IdHTTP       |TIdCustomHTTP  |Post                        |      |
+|004F72F0|sendgrid.exe|IdHTTP       |TIdCustomHTTP  |Post                        |      |
+|004FD6B9|sendgrid.exe|usendgrid.pas|TSendGrid      |SendMail                    |233[5]|
+|004FD628|sendgrid.exe|usendgrid.pas|TSendGrid      |SendMail                    |228[0]|
+|004FDA24|sendgrid.exe|Unit1.pas    |TForm1         |Button2Click                |50[12]|
+|0048CAEC|sendgrid.exe|Controls     |TControl       |Click                       |      |
+|0048CA88|sendgrid.exe|Controls     |TControl       |Click                       |      |
+|004851E0|sendgrid.exe|StdCtrls     |TButton        |Click                       |      |
+|00403FC0|sendgrid.exe|System       |               |_CallDynaInst               |      |
+|004852D4|sendgrid.exe|StdCtrls     |TButton        |CNCommand                   |      |
+|0048C954|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|7E3799D3|user32.dll  |             |               |NotifyWinEvent              |      |
+|7E3799CB|user32.dll  |             |               |NotifyWinEvent              |      |
+|7C90ECBA|ntdll.dll   |             |               |RtlMultiByteToUnicodeN      |      |
+|7C90EB94|ntdll.dll   |             |               |RtlAnsiStringToUnicodeString|      |
+|7C90D328|ntdll.dll   |             |               |ZwFindAtom                  |      |
+|0048C7CC|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|0048F85F|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|0048F708|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|004850A4|sendgrid.exe|StdCtrls     |TButtonControl |WndProc                     |      |
+|0048C724|sendgrid.exe|Controls     |TControl       |Perform                     |      |
+|0048C700|sendgrid.exe|Controls     |TControl       |Perform                     |      |
+|0048F997|sendgrid.exe|Controls     |               |DoControlMsg                |      |
+|0048F974|sendgrid.exe|Controls     |               |DoControlMsg                |      |
+|0048FFEF|sendgrid.exe|Controls     |TWinControl    |WMCommand                   |      |
+|0048FFE4|sendgrid.exe|Controls     |TWinControl    |WMCommand                   |      |
+|004A6634|sendgrid.exe|Forms        |TCustomForm    |WMCommand                   |      |
+|7E37A97D|user32.dll  |             |               |CallWindowProcA             |      |
+|0048F943|sendgrid.exe|Controls     |TWinControl    |DefaultHandler              |      |
+|0048C954|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|0042481C|sendgrid.exe|Classes      |               |StdWndProc                  |      |
+|7E379719|user32.dll  |             |               |PtInRect                    |      |
+|7E37F94F|user32.dll  |             |               |DrawFocusRect               |      |
+|0048C7CC|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|0048F85F|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|0041CCCC|sendgrid.exe|Classes      |TThreadList    |UnlockList                  |      |
+|0041CCC8|sendgrid.exe|Classes      |TThreadList    |UnlockList                  |      |
+|00479E50|sendgrid.exe|Graphics     |               |FreeMemoryContexts          |      |
+|0048F708|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|004A4685|sendgrid.exe|Forms        |TCustomForm    |WndProc                     |      |
+|0048F4DC|sendgrid.exe|Controls     |TWinControl    |MainWndProc                 |      |
+|0042481C|sendgrid.exe|Classes      |               |StdWndProc                  |      |
+|7E3792DE|user32.dll  |             |               |SendMessageW                |      |
+|7E37929A|user32.dll  |             |               |SendMessageW                |      |
+|7E37A993|user32.dll  |             |               |CallWindowProcA             |      |
+|7E37A97D|user32.dll  |             |               |CallWindowProcA             |      |
+|0048F943|sendgrid.exe|Controls     |TWinControl    |DefaultHandler              |      |
+|0048CEF4|sendgrid.exe|Controls     |TControl       |WMLButtonUp                 |      |
+|7C802550|kernel32.dll|             |               |WaitForSingleObjectEx       |      |
+|7C80253D|kernel32.dll|             |               |WaitForSingleObject         |      |
+|0048C954|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|7E3777F2|user32.dll  |             |               |PostThreadMessageW          |      |
+|7C90DA28|ntdll.dll   |             |               |ZwReleaseMutant             |      |
+|7C8024C1|kernel32.dll|             |               |ReleaseMutex                |      |
+|0048F791|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|0048C7CC|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|0048F85F|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|7C9010E0|ntdll.dll   |             |               |RtlLeaveCriticalSection     |      |
+|0041CCCC|sendgrid.exe|Classes      |TThreadList    |UnlockList                  |      |
+|7E3694DA|user32.dll  |             |               |GetCapture                  |      |
+|0048F687|sendgrid.exe|Controls     |TWinControl    |IsControlMouseMsg           |      |
+|7E37B3FC|user32.dll  |             |               |CallNextHookEx              |      |
+|0048C7CC|sendgrid.exe|Controls     |TControl       |WndProc                     |      |
+|0048F85F|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|0048F708|sendgrid.exe|Controls     |TWinControl    |WndProc                     |      |
+|004850A4|sendgrid.exe|StdCtrls     |TButtonControl |WndProc                     |      |
+|0048F4DC|sendgrid.exe|Controls     |TWinControl    |MainWndProc                 |      |
+|0042481C|sendgrid.exe|Classes      |               |StdWndProc                  |      |
+|7E3696C2|user32.dll  |             |               |DispatchMessageA            |      |
+|7E3696B8|user32.dll  |             |               |DispatchMessageA            |      |
+|004AA9DF|sendgrid.exe|Forms        |TApplication   |ProcessMessage              |      |
+|004AA95C|sendgrid.exe|Forms        |TApplication   |ProcessMessage              |      |
+|004AA9FE|sendgrid.exe|Forms        |TApplication   |HandleMessage               |      |
+|004AA9F4|sendgrid.exe|Forms        |TApplication   |HandleMessage               |      |
+|004AAC2E|sendgrid.exe|Forms        |TApplication   |Run                         |      |
+|004AAB98|sendgrid.exe|Forms        |TApplication   |Run                         |      |
+|004FE26B|sendgrid.exe|sendgrid.dpr |               |                            |15[3] |
+|7C90DCB8|ntdll.dll   |             |               |ZwSetInformationThread      |      |
+-----------------------------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                                         |Description                                                       |Version         |Size   |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|sendgrid.exe                                 |                                                                  |                |1191936|2017-11-26 12:55:50|C:\dlib\sendgrid                                                                                    |
+|00F80000|api-ms-win-core-string-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00F90000|api-ms-win-core-errorhandling-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FA0000|api-ms-win-core-file-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |21696  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FB0000|api-ms-win-core-timezone-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FC0000|api-ms-win-core-namedpipe-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FD0000|api-ms-win-core-handle-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FE0000|api-ms-win-core-file-l2-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|00FF0000|api-ms-win-core-heap-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01000000|api-ms-win-core-libraryloader-l1-1-0.dll     |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01010000|api-ms-win-core-synch-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01020000|api-ms-win-core-processthreads-l1-1-0.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01030000|api-ms-win-core-processenvironment-l1-1-0.dll|ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01040000|api-ms-win-core-localization-l1-2-0.dll      |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01050000|api-ms-win-core-datetime-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01060000|api-ms-win-core-sysinfo-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |19136  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01070000|api-ms-win-core-synch-l1-2-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01080000|api-ms-win-core-console-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01090000|api-ms-win-core-debug-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010A0000|api-ms-win-core-processthreads-l1-1-1.dll    |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010B0000|api-ms-win-core-file-l1-2-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010C0000|api-ms-win-core-profile-l1-1-0.dll           |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010D0000|api-ms-win-core-memory-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010E0000|api-ms-win-core-util-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |18112  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|010F0000|api-ms-win-core-rtlsupport-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |17600  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01100000|api-ms-win-core-interlocked-l1-1-0.dll       |ApiSet Stub DLL                                                   |10.0.14393.33   |18104  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|01110000|EFACli.dll                                   |Symantec Extended File Attributes                                 |7.1.0.46        |120968 |2017-11-10 20:31:08|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|011A0000|api-ms-win-crt-runtime-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22720  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02980000|MSVCP140.dll                                 |Microsoft® C Runtime Library                                      |14.0.24123.0    |440120 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|029F0000|VCRUNTIME140.dll                             |Microsoft® C Runtime Library                                      |14.0.24123.0    |83792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A10000|api-ms-win-crt-string-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A20000|api-ms-win-crt-heap-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A30000|api-ms-win-crt-stdio-l1-1-0.dll              |ApiSet Stub DLL                                                   |10.0.14393.33   |24256  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A40000|api-ms-win-crt-convert-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |22208  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A50000|api-ms-win-crt-locale-l1-1-0.dll             |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A60000|api-ms-win-crt-math-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |28864  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A70000|api-ms-win-crt-multibyte-l1-1-0.dll          |ApiSet Stub DLL                                                   |10.0.14393.33   |25792  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A80000|api-ms-win-crt-time-l1-1-0.dll               |ApiSet Stub DLL                                                   |10.0.14393.33   |20672  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02A90000|api-ms-win-crt-filesystem-l1-1-0.dll         |ApiSet Stub DLL                                                   |10.0.14393.33   |20160  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AA0000|api-ms-win-crt-environment-l1-1-0.dll        |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AB0000|api-ms-win-crt-utility-l1-1-0.dll            |ApiSet Stub DLL                                                   |10.0.14393.33   |18624  |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|02AF0000|TortoiseSVN32.dll                            |TortoiseSVN shell extension client                                |1.8.4.24972     |444144 |2013-11-24 12:49:00|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02B70000|libsvn_tsvn32.dll                            |Subversion library dll built for TortoiseSVN                      |1.8.5.34819     |3510512|2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02EE0000|MSVCR110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |875472 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|02FD0000|intl3_tsvn32.dll                             |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME        |0.14.6.0        |46320  |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|02FF0000|libsasl32.dll                                |                                                                  |2.1.24.0        |71408  |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|03020000|MSVCP110.dll                                 |Microsoft® C Runtime Library                                      |11.0.51106.1    |535008 |2012-11-06 01:20:52|C:\WINDOWS\system32                                                                                 |
+|030B0000|TortoiseGitStub32.dll                        |TortoiseGit shell extension client                                |1.8.11.0        |79208  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|030E0000|TortoiseGit32.dll                            |TortoiseGit shell extension client                                |1.8.11.0        |488808 |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03180000|libgit232_tgit.dll                           |libgit2 - the Git linkable library                                |0.21.0.0        |592232 |2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03230000|zlib132_tgit.dll                             |zlib data compression library                                     |1.2.8.0         |76648  |2014-08-22 15:51:24|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03260000|MSVCR120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |970912 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03350000|gitdll32.dll                                 |libgit (based on git version 1.9.0) implementation for TortoiseGit|1.8.11.0        |1543016|2014-08-22 15:51:22|C:\Arquivos de programas\TortoiseGit\bin                                                            |
+|03530000|MSVCP120.dll                                 |Microsoft® C Runtime Library                                      |12.0.21005.1    |455328 |2013-10-05 02:38:22|C:\WINDOWS\system32                                                                                 |
+|03760000|IdnDL.dll                                    |Downlevel DLL                                                     |6.0.5441.0      |26112  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|037A0000|vmhgfs.dll                                   |VMware HGFS Provider                                              |9.0.0.0         |59584  |2016-09-29 01:40:02|C:\WINDOWS\System32                                                                                 |
+|037F0000|Normaliz.dll                                 |Unicode Normalization DLL                                         |6.0.5441.0      |23552  |2009-01-07 17:20:36|C:\WINDOWS\system32                                                                                 |
+|03E20000|ccLib.dll                                    |Symantec Library                                                  |15.0.0.80       |697480 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|03FD0000|xpsp2res.dll                                 |Mensagens do Service Pack 2                                       |5.1.2600.5512   |2945536|2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|047C0000|libeay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |1178112|2012-05-10 22:10:36|C:\WINDOWS\system32                                                                                 |
+|04910000|ssleay32.dll                                 |OpenSSL Shared Library                                            |1.0.1.3         |265216 |2012-05-10 22:10:50|C:\WINDOWS\system32                                                                                 |
+|05940000|TortoiseStub32.dll                           |                                                                  |1.8.4.24972     |65264  |2013-11-24 12:48:58|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|05960000|TortoiseOverlays.dll                         |TortoiseSVN overlay handler shim                                  |1.1.3.21564     |64792  |2011-06-13 10:20:44|C:\Arquivos de programas\Arquivos comuns\TortoiseOverlays                                           |
+|10000000|ucrtbase.dll                                 |Microsoft® C Runtime Library                                      |10.0.14393.33   |917184 |2017-11-10 20:29:10|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|1F840000|odbcint.dll                                  |Microsoft Data Access - Recursos do ODBC                          |3.525.1117.0    |98304  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|4D5A0000|WINHTTP.dll                                  |Windows HTTP Services                                             |5.1.2600.6175   |354816 |2011-11-16 11:20:50|C:\WINDOWS\system32                                                                                 |
+|4EB60000|gdiplus.dll                                  |Microsoft GDI+                                                    |5.2.6002.23084  |1748992|2013-04-10 07:46:06|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550       |
+|5B1C0000|uxtheme.dll                                  |Biblioteca UxTheme Microsoft                                      |6.0.2900.5512   |219648 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|5BCB0000|NETAPI32.dll                                 |Net Win32 API DLL                                                 |5.1.2600.6260   |339968 |2012-07-06 10:58:06|C:\WINDOWS\system32                                                                                 |
+|5D510000|comctl32.dll                                 |Common Controls Library                                           |5.82.2900.6028  |617472 |2010-08-23 13:12:00|C:\WINDOWS\system32                                                                                 |
+|60B30000|hnetcfg.dll                                  |Gerenciador de configurações de rede doméstica                    |5.1.2600.5512   |346624 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|68000000|rsaenh.dll                                   |Microsoft Enhanced Cryptographic Provider                         |5.1.2600.5507   |208384 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|6AB30000|ccIPC.dll                                    |Symantec ccIPC Engine                                             |15.0.0.80       |186504 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6AD00000|ccSet.dll                                    |Symantec Settings Manager Engine                                  |15.0.0.80       |356488 |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6ADE0000|ccVrTrst.dll                                 |Symantec Trust Validation Engine                                  |15.0.0.80       |94856  |2017-11-10 20:28:38|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6EE60000|libaprutil_tsvn32.dll                        |Apache Portable Runtime Utility Library                           |1.5.2.0         |221936 |2013-11-24 12:48:42|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6EEC0000|libapr_tsvn32.dll                            |Apache Portable Runtime Library                                   |1.4.8.0         |143088 |2013-11-24 12:48:44|C:\Arquivos de programas\TortoiseSVN\bin                                                            |
+|6EF00000|buComm.dll                                   |Backup Common                                                     |10.6.1.3        |409720 |2017-11-10 20:28:30|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|6F080000|buShell.dll                                  |Backup Shell                                                      |10.6.1.3        |2108024|2017-11-10 20:28:30|C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                                |
+|71A10000|MSWSOCK.dll                                  |Fornecedor de serviços do Microsoft Windows Sockets 2.0           |5.1.2600.5625   |247808 |2009-03-21 14:20:14|C:\WINDOWS\system32                                                                                 |
+|71A50000|wshtcpip.dll                                 |Windows Sockets Helper DLL                                        |5.1.2600.5512   |19456  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71A60000|WS2HELP.dll                                  |DLL de ajuda do Windows Socket 2.0 para Windows NT                |5.1.2600.5512   |19968  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A70000|WS2_32.dll                                   |Windows Socket 2.0 32-Bit DLL                                     |5.1.2600.5512   |82432  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71A90000|wsock32.dll                                  |DLL de soquete para Windows de 32 bits                            |5.1.2600.5512   |25088  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71AE0000|MPR.dll                                      |DLL do roteador provedor múltiplo                                 |5.1.2600.5512   |59904  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71BC0000|SAMLIB.dll                                   |SAM Library DLL                                                   |5.1.2600.5512   |64000  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71BE0000|ntlanman.dll                                 |Microsoft(R) Lan Manager                                          |5.1.2600.5512   |44032  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71C50000|NETRAP.dll                                   |Net Remote Admin Protocol DLL                                     |5.1.2600.5512   |11776  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71C60000|NETUI1.dll                                   |NT LM UI Common Code - Networking classes                         |5.1.2600.5512   |245760 |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71CA0000|NETUI0.dll                                   |Código comum da interface gráfica de usuário do LM do NT          |5.1.2600.5512   |81920  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|71F50000|security.dll                                 |Security Support Provider Interface                               |5.1.2600.5512   |5632   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|72FB0000|winspool.drv                                 |Driver de spooler do Windows                                      |5.1.2600.5512   |146944 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|74610000|ODBC32.dll                                   |Microsoft Data Access - ODBC Driver Manager                       |3.525.3012.0    |249856 |2010-11-09 11:52:36|C:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll                                    |DLL de servidor MSCTF                                             |5.1.2600.5512   |297984 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|75940000|MSGINA.dll                                   |Windows NT Logon GINA DLL                                         |5.1.2600.5512   |1000960|2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|75F30000|drprov.dll                                   |Microsoft Terminal Server Network Provider                        |5.1.2600.5512   |14336  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|75F40000|davclnt.dll                                  |DLL de cliente Web DAV                                            |5.1.2600.5512   |25600  |2008-04-14 07:00:00|C:\WINDOWS\System32                                                                                 |
+|76330000|WINSTA.dll                                   |Winstation Library                                                |5.1.2600.5512   |53760  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll                                 |DLL de diálogos comuns                                            |6.0.2900.5512   |275968 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76970000|ntshrui.dll                                  |Extensões do Shell para compartilhamento                          |5.1.2600.5512   |145408 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|769A0000|USERENV.dll                                  |Userenv                                                           |5.1.2600.5512   |732160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76B00000|ATL.DLL                                      |ATL Module for Windows XP (Unicode)                               |3.5.2284.2      |58880  |2009-07-17 16:03:30|C:\WINDOWS\system32                                                                                 |
+|76BD0000|PSAPI.DLL                                    |Process Status Helper                                             |5.1.2600.5512   |23040  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76C10000|WINTRUST.dll                                 |APIs de verificação de segurança da Microsoft                     |5.131.2600.6285 |177664 |2012-08-24 10:53:14|C:\WINDOWS\system32                                                                                 |
+|76C70000|IMAGEHLP.dll                                 |Windows NT Image Helper                                           |5.1.2600.6479   |150528 |2013-11-13 00:00:08|C:\WINDOWS\system32                                                                                 |
+|76D40000|iphlpapi.dll                                 |IP Helper API                                                     |5.1.2600.5512   |95744  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76F00000|DNSAPI.dll                                   |DNS Client API DLL                                                |5.1.2600.6089   |149504 |2011-03-03 03:53:36|C:\WINDOWS\system32                                                                                 |
+|76F40000|WLDAP32.dll                                  |DLL da API LDAP Win32                                             |5.1.2600.5512   |172544 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FA0000|rasadhlp.dll                                 |Remote Access AutoDial Helper                                     |5.1.2600.5512   |7680   |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|76FB0000|CLBCATQ.DLL                                  |                                                                  |2001.12.4414.700|498688 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77030000|COMRes.dll                                   |                                                                  |2001.12.4414.700|821760 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77100000|oleaut32.dll                                 |                                                                  |5.1.2600.6341   |552448 |2013-01-26 00:55:46|C:\WINDOWS\system32                                                                                 |
+|77190000|WININET.dll                                  |Internet Extensions para Win32                                    |6.0.2900.5512   |668160 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|773B0000|comctl32.dll                                 |User Experience Controls Library                                  |6.0.2900.6028   |1054208|2010-08-23 13:11:58|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202|
+|774C0000|ole32.dll                                    |Microsoft OLE para Windows e Windows NT                           |5.1.2600.6435   |1289216|2013-08-05 10:30:16|C:\WINDOWS\system32                                                                                 |
+|77900000|SETUPAPI.dll                                 |API de instalação do Windows                                      |5.1.2600.5512   |995328 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77A60000|CRYPT32.dll                                  |Crypto API32                                                      |5.131.2600.6459 |609280 |2013-10-07 07:59:58|C:\WINDOWS\system32                                                                                 |
+|77B00000|MSASN1.dll                                   |ASN.1 Runtime APIs                                                |5.1.2600.5875   |58880  |2009-09-04 18:04:40|C:\WINDOWS\system32                                                                                 |
+|77B20000|appHelp.dll                                  |Application Compatibility Client Library                          |5.1.2600.5512   |125952 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BE0000|version.dll                                  |Version Checking and File Installation Libraries                  |5.1.2600.5512   |18944  |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77BF0000|msvcrt.dll                                   |Windows NT CRT DLL                                                |7.0.2600.5512   |343040 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+|77DB0000|RPCRT4.dll                                   |Remote Procedure Call Runtime                                     |5.1.2600.6477   |591360 |2013-11-07 02:37:58|C:\WINDOWS\system32                                                                                 |
+|77E50000|GDI32.dll                                    |GDI Client DLL                                                    |5.1.2600.6460   |287744 |2013-10-09 10:13:12|C:\WINDOWS\system32                                                                                 |
+|77EA0000|SHLWAPI.dll                                  |Biblioteca de utilitário abreviado para Shell                     |6.0.2900.5912   |474112 |2009-12-08 06:24:26|C:\WINDOWS\system32                                                                                 |
+|77F20000|Secur32.dll                                  |Security Support Provider Interface                               |5.1.2600.5834   |56832  |2009-06-25 05:41:44|C:\WINDOWS\system32                                                                                 |
+|77F50000|advapi32.dll                                 |API de base do Windows 32 avançada                                |5.1.2600.5755   |683520 |2009-02-09 07:53:26|C:\WINDOWS\system32                                                                                 |
+|78520000|MSVCR90.dll                                  |Microsoft® C Runtime Library                                      |9.0.30729.4148  |653120 |2009-07-12 00:02:02|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e              |
+|7C800000|kernel32.dll                                 |DLL cliente da API BASE do Windows NT                             |5.1.2600.6532   |1032192|2014-03-12 07:47:44|C:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll                                    |DLL de nível do NT                                                |5.1.2600.6055   |734208 |2010-12-09 12:15:18|C:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll                                  |DLL comum do Shell do Windows                                     |6.0.2900.6242   |8493568|2012-06-08 11:24:24|C:\WINDOWS\system32                                                                                 |
+|7E360000|user32.dll                                   |DLL de Cliente API de usuário Windows XP                          |5.1.2600.5512   |579072 |2008-04-14 07:00:00|C:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                     |Description                                   |Version      |Memory   |Priority|Threads|Path                                                                                      |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System                   |                                              |             |270336   |Normal  |64     |                                                                                          |
+|184 |DpHostW.exe              |DigitalPersona Local Host                     |4.5.0.2213   |7229440  |Normal  |13     |C:\Arquivos de programas\DigitalPersona\Bin                                               |
+|416 |TPAutoConnSvc.exe        |ThinPrint AutoConnect printer creation service|10.2.564.1   |7245824  |Normal  |5      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|624 |dxp01XPSWinService.exe   |dxp01XPSWinService                            |0.3.1025.0   |1417216  |Normal  |2      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|664 |fbguard.exe              |Firebird SQL Server                           |2.5.7.27050  |2805760  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|668 |dxp01USBPrinterStatus.exe|dxp01USBPrinterStatus                         |0.3.1025.0   |3133440  |Normal  |1      |C:\Documents and Settings\All Users\Dados de aplicativos\Datacard\XPS Card Printer\Service|
+|728 |smss.exe                 |                                              |             |446464   |Normal  |3      |\SystemRoot\System32                                                                      |
+|736 |fbguard.exe              |Firebird SQL Server                           |2.1.7.18553  |2703360  |Normal  |3      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|836 |winlogon.exe             |                                              |             |7168000  |High    |18     |C:\WINDOWS\system32                                                                       |
+|884 |services.exe             |Aplicativo de serviços e controle             |5.1.2600.5755|4476928  |Normal  |16     |C:\WINDOWS\system32                                                                       |
+|896 |lsass.exe                |LSA Shell (Export Version)                    |5.1.2600.5512|9777152  |Normal  |23     |C:\WINDOWS\system32                                                                       |
+|1060|vmacthlp.exe             |VMware Activation Helper                      |10.0.12.325  |2666496  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|1084|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|5537792  |Normal  |19     |C:\WINDOWS\system32                                                                       |
+|1104|fbserver.exe             |Firebird SQL Server                           |2.1.7.18553  |7950336  |Normal  |7      |C:\Arquivos de programas\Firebird\Firebird_2_1\bin                                        |
+|1240|firebird.exe             |Firebird SQL Server                           |3.0.1.32609  |6602752  |Normal  |6      |C:\Arquivos de programas\Firebird\Firebird_3_0                                            |
+|1316|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|34455552 |Normal  |77     |C:\WINDOWS\System32                                                                       |
+|1360|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3461120  |Normal  |5      |C:\WINDOWS\system32                                                                       |
+|1464|vcsFPService.exe         |Validity Sensors Fingerprint Service          |4.3.108.0    |6361088  |Normal  |6      |C:\WINDOWS\system32                                                                       |
+|1556|mdm.exe                  |Machine Debug Manager                         |7.10.3077.0  |2809856  |Normal  |4      |C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\VS7Debug                        |
+|1608|notepad++.exe            |Notepad++ : a free (GNU) source code editor   |7.3.3.0      |1585152  |Normal  |2      |C:\Arquivos de programas\Notepad++                                                        |
+|1740|Explorer.EXE             |Windows Explorer                              |6.0.2900.5512|39669760 |Normal  |15     |C:\WINDOWS                                                                                |
+|1844|N360.exe                 |Norton 360                                    |15.0.0.80    |17285120 |Normal  |75     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|2028|spoolsv.exe              |Spooler SubSystem App                         |5.1.2600.6024|12566528 |Normal  |19     |C:\WINDOWS\system32                                                                       |
+|2136|NetTimeService.exe       |Network Time Synchronizer - NT Service        |3.1.4.220    |2400256  |Normal  |7      |C:\Arquivos de programas\NetTime                                                          |
+|2432|rundll32.exe             |Executa uma DLL como um aplicativo            |5.1.2600.5512|4923392  |Normal  |4      |C:\WINDOWS\system32                                                                       |
+|2568|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|7905280  |Normal  |6      |C:\WINDOWS\system32                                                                       |
+|2592|TeamViewer_Service.exe   |TeamViewer 10                                 |10.0.47484.0 |13058048 |Normal  |19     |C:\Arquivos de programas\TeamViewer                                                       |
+|2616|VGAuthService.exe        |VMware Guest Authentication Service           |10.0.12.30580|9273344  |Normal  |2      |C:\Arquivos de programas\VMware\VMware Tools\VMware VGAuth                                |
+|2672|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |19259392 |High    |8      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|2860|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|9818112  |Normal  |3      |C:\WINDOWS\system32                                                                       |
+|2976|svchost.exe              |Generic Host Process for Win32 Services       |5.1.2600.5512|3575808  |Normal  |8      |C:\WINDOWS\System32                                                                       |
+|3060|wscntfy.exe              |Windows Security Center Notification App      |5.1.2600.5512|2486272  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3072|vmtoolsd.exe             |VMware Tools Core Service                     |10.0.12.325  |13193216 |Normal  |4      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3140|TGitCache.exe            |TortoiseGit status cache                      |1.8.11.0     |9613312  |Normal  |9      |C:\Arquivos de programas\TortoiseGit\bin                                                  |
+|3160|delphi32.exe             |Delphi-32 Development Environment             |7.0.8.1      |96256000 |Normal  |13     |C:\Arquivos de programas\Borland\Delphi7\Bin                                              |
+|3444|TeamViewer.exe           |TeamViewer 10                                 |10.0.47484.0 |2768896  |Normal  |11     |C:\Arquivos de programas\TeamViewer                                                       |
+|3528|TSVNCache.exe            |TortoiseSVN status cache                      |1.8.4.24972  |7499776  |Normal  |10     |C:\Arquivos de programas\TortoiseSVN\bin                                                  |
+|3540|NetTime.exe              |Network Time Synchronizer                     |3.1.4.220    |1331200  |Normal  |3      |C:\Arquivos de programas\NetTime                                                          |
+|3648|fbserver.exe             |Firebird SQL Server                           |2.5.7.27050  |7667712  |Normal  |5      |C:\Arquivos de programas\Firebird\Firebird_2_5\bin                                        |
+|3712|ctfmon.exe               |CTF Loader                                    |5.1.2600.5512|3440640  |Normal  |1      |C:\WINDOWS\system32                                                                       |
+|3728|IBExpert.exe             |IBExpert IDE                                  |2017.10.1.1  |18423808 |Normal  |5      |C:\Arquivos de programas\HK-Software\IBExpert                                             |
+|3736|TPAutoConnect.exe        |ThinPrint AutoConnect component               |10.2.909.1   |9146368  |Normal  |1      |C:\Arquivos de programas\VMware\VMware Tools                                              |
+|3808|N360.exe                 |Norton 360                                    |15.0.0.80    |39780352 |Normal  |30     |C:\Arquivos de programas\Norton 360\Engine\22.11.2.7                                      |
+|4056|tv_w32.exe               |TeamViewer 10                                 |10.0.47484.0 |3411968  |Normal  |1      |C:\Arquivos de programas\TeamViewer                                                       |
+|4104|firefox.exe              |Firefox                                       |52.5.0.6520  |448921600|Normal  |65     |C:\Arquivos de programas\Mozilla Firefox                                                  |
+|4472|sendgrid.exe             |                                              |             |28991488 |Normal  |7      |C:\dlib\sendgrid                                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-------------------------------------------------------------------------------
+; IdHTTP.CheckException (Line=0 - Offset=0)
+; -----------------------------------------
+004FA6FB  xor     ecx, ecx
+004FA6FD  mov     eax, [ebp-$04]
+004FA700  call    IdGlobalProtocols.ReadStringAsCharset
+004FA705  mov     eax, [ebp-$14]
+004FA708  push    eax
+004FA709  mov     eax, [ebp+$08]
+004FA70C  mov     ecx, [eax-$0C]
+004FA70F  mov     dl, $01
+004FA711  mov     eax, dword ptr [EIdHTTPProtocolException]
+004FA716  call    IdHTTP.EIdHTTPProtocolException.CreateError
+004FA71B  call    System._RaiseExcept                          ; <-- EXCEPTION
+004FA720  xor     eax, eax
+004FA722  pop     edx
+004FA723  pop     ecx
+004FA724  pop     ecx
+004FA725  mov     fs:[eax], edx
+004FA728  push    $004FA74F                                    ; '3ÀZYYd‰.hr§O'
+004FA72D  mov     al, byte ptr [ebp-$09]
+004FA730  or      al, byte ptr [ebp-$0A]
+004FA733  jz      IdHTTP.CheckException
+004FA735  mov     eax, [ebp+$08]
+
+Registers:
+-----------------------------
+EAX: 0134629C   EDI: 0012F530
+EBX: FFFFFFFF   ESI: 00000000
+ECX: 00000000   ESP: 0012F494
+EDX: 004FA720   EIP: 004FA71B
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F494: 0012F4A0   004FA71B: E8 E4 9E F0 FF 33 C0 5A 59 59 64 89 10 68 4F A7  .....3.ZYYd..hO.
+0012F498: 00404538   004FA72B: 4F 00 8A 45 F7 0A 45 F6 74 12 8B 45 08 8B 40 FC  O..E..E.t..E..@.
+0012F49C: 0012F4D8   004FA73B: 8B 40 0C 8B 55 F8 89 90 B8 00 00 00 C3 E9 BB 9D  .@..U...........
+0012F4A0: 0012F4AC   004FA74B: F0 FF EB DE 33 C0 5A 59 59 64 89 10 68 72 A7 4F  ....3.ZYYd..hr.O
+0012F4A4: 00404538   004FA75B: 00 80 7D F7 00 74 08 8B 45 FC E8 4E 96 F0 FF C3  ..}..t..E..N....
+0012F4A8: 0012F4D8   004FA76B: E9 98 9D F0 FF EB EA 33 C0 5A 59 59 64 89 10 68  .......3.ZYYd..h
+0012F4AC: 0012F4E4   004FA77B: 94 A7 4F 00 8D 45 EC BA 02 00 00 00 E8 48 A5 F0  ..O..E.......H..
+0012F4B0: 00404538   004FA78B: FF C3 E9 76 9D F0 FF EB EB 5F 5E 5B 8B E5 5D C3  ...v....._^[..].
+0012F4B4: 0012F4D8   004FA79B: 90 55 8B EC 51 53 56 57 8B 45 08 8B 40 FC 8B 40  .U..QSVW.E..@..@
+0012F4B8: 0012F530   004FA7AB: 0C 8B 90 B8 00 00 00 89 55 FC 8B 55 08 33 D2 89  ........U..U.3..
+0012F4BC: 00000000   004FA7BB: 90 B8 00 00 00 33 D2 55 68 5E A8 4F 00 64 FF 32  .....3.Uh^.O.d.2
+0012F4C0: FFFFFFFF   004FA7CB: 64 89 22 33 D2 55 68 02 A8 4F 00 64 FF 32 64 89  d."3.Uh..O.d.2d.
+0012F4C4: 00000000   004FA7DB: 22 8B 55 08 8B C8 8B 45 08 8B 40 FC 8B 50 08 8B  ".U....E..@..P..
+0012F4C8: 00000000   004FA7EB: 45 08 8B 40 FC 8B 40 04 E8 F4 DA FF FF 33 C0 5A  E..@..@......3.Z
+0012F4CC: 01010000   004FA7FB: 59 59 64 89 10 EB 3C E9 79 9B F0 FF 01 00 00 00  YYd...<.y.......
+0012F4D0: 0139792C   004FA80B: 84 9F 40 00 13 A8 4F 00 89 C3 8B 45 08 8B 40 FC  ..@...O....E..@.
+
+
+
