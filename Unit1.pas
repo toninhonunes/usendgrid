@@ -36,14 +36,14 @@ procedure TForm1.Button2Click(Sender: TObject);
 var
   SendGrid : TSendGrid;
 begin
-  SendGrid := TSendGrid.Create('api key');
+  SendGrid := TSendGrid.Create('apikey');
   with SendGrid do
   try
-    ToMail := 'toemail';
-    ToName := 'your name';
+    ToMail := 'youremail@';
+    ToName := 'Testing';
     ToSubject := 'Testing';
-    FromMail := 'fromemail';
-    FromName := 'fromname';
+    FromMail := 'from@email';
+    FromName := 'FromName';
     ContentType := 'text/html';
     ContentValue := Memo1.Lines.GetText;
     FileName.AddStrings(OpenDialog1.Files);
