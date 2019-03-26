@@ -3,7 +3,6 @@ Unit Delphi 7 para enviar email usando api v3 da sendgrid
 
 //Unit usendgrid
 //Autor : Antonio Carlos Nunes Júnior (Toninho Nunes)
-//Empresa: Avalue Sistemas LTDA
 //Propósito : Usar o módulo Json api V3 do SendGrid
 //Falta Implementar Lotes de 1000 emails por envio no registro personalizations
 //farei esta adaptação no próximo update, o mesmo envia anexos diversos
