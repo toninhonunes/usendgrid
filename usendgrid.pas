@@ -40,6 +40,8 @@ type
     fTobcc : TStringList;
     fContetTypeFile: string;
     fLimit: Integer;
+    fContentId: string;
+    fFileStream: TList;
     function GetContentType: String;
     function GetContentValue: String;
     function GetFromMail: String;
@@ -55,6 +57,7 @@ type
     function GetTobcc: TStringList;
     procedure SetTobcc(const Value: TStringList);
     function DecodeParams(FParams: String): TParams;
+    function GetContentId: string;
   public
     constructor Create(sApiKey : String = '');
     destructor Destroy; override;
@@ -68,7 +71,9 @@ type
     property ContentType     : String read GetContentType     write fContentType;
     property ContentValue    : String read GetContentValue    write fContentValue;
     property FileName        : TStringList read GetFilesName  write SetFilesName;
+    property FileStream      : TList read fFileStream write fFileStream;
     property ContentTypeFile : string read GetContentTypeFile write fContetTypeFile;
+    property ContentId       : string read GetContentId       write fContentId;
     property Limit           : Integer read fLimit write fLimit default 999;
     function SendMail : Boolean;
   end;
@@ -78,7 +83,9 @@ implementation
 { TSendGrid }
 constructor TSendGrid.Create(sApiKey : String = '');
 begin
+  fContentId := '';
   fFilesName := TStringList.Create;
+  fFileStream := TList.Create;
   fTobcc     := TStringList.Create;
   if sApiKey <> '' then
     fApiKey := sApiKey;
@@ -98,9 +105,19 @@ begin
 end;
 
 destructor TSendGrid.Destroy;
+var
+  I : Integer;
 begin
   if Assigned(fFilesName) then
     fFilesName.Free;
+
+  if Assigned(fFileStream) then
+  begin
+    for I := 0 to fFileStream.Count-1 do
+      TStream(fFileStream[I]).Free;
+
+    fFileStream.Free;
+  end;
 
   if Assigned( fTobcc ) then
     fTobcc.Free;  
@@ -152,6 +169,7 @@ var
   sContent, sAttachment,
   sFile64Output : String;
   aFileStream : TFileStream;
+  aMemoryStream : TStream;
   aEncode64 : TIdEncoderMIME;
   js : TlkJSONobject;
   I : integer;
@@ -210,23 +228,33 @@ begin
     s := s + ', "attachments": [';
     for I := 0 to fFilesName.Count-1 do
     begin
-
       try
-        aFileStream := TFileStream.Create(fFilesName.Strings[I], fmOpenRead);
-        aEncode64 := TIdEncoderMIME.Create(nil);
-        sFile64Output := aEncode64.Encode(aFileStream, aFileStream.Size);
+        if fFileStream.Count <= 0 then
+        begin
+          aFileStream := TFileStream.Create(fFilesName.Strings[I], fmOpenRead);
+          aEncode64 := TIdEncoderMIME.Create(nil);
+          sFile64Output := aEncode64.Encode(aFileStream, aFileStream.Size);
+        end
+        else
+        begin
+          aEncode64 := TIdEncoderMIME.Create(nil);
+          sFile64Output := aEncode64.Encode(TStream(fFileStream[I]), TStream(fFileStream[I]).Size);
+        end;
       finally
         if Assigned(aFileStream) then
           aFileStream.Free;
 
         if Assigned(aEncode64) then
           aEncode64.Free;
+
+        if Assigned(aMemoryStream) then
+          aMemoryStream.Free;
       end;
 
       js := TlkJSONobject.Create;
       js.Add('content', sFile64Output);
       js.Add('filename', fFilesName.Strings[I]);
-      js.Add('content_id', 'logopara');
+      js.Add('content_id', fContentId);
       js.Add('disposition', 'inline');
 
       sAttachment := UTF8Decode(TlkJSON.GenerateText(js));
@@ -261,14 +289,15 @@ function TSendGrid.SendMail: Boolean;
 var
   RequestUTF8 : TStringStream;
   vGpTextStream : TGpTextStream;
+  Response : TIdHTTPResponse;
 begin
   if fTobcc.Count > 999+1 then
   begin
-    Application.MessageBox('Cada lote de envio deve ter no máximo 999 emails,' 
+    Application.MessageBox('Cada lote de envio deve ter no máximo 999 emails,'
       + #13#10 + 'faça um loop no seu código para criar lotes nessa ' + #13#10
-      + 'quantidade para enviar!', 'Aviso !', MB_OK + MB_ICONSTOP + 
+      + 'quantidade para enviar!', 'Aviso !', MB_OK + MB_ICONSTOP +
       MB_DEFBUTTON2);
-    SysUtils.Abort;  
+    SysUtils.Abort;
   end;
 
   try
@@ -276,6 +305,7 @@ begin
     vGpTextStream := TGpTextStream.Create(RequestUTF8, tsaccWrite,[], CP_UTF8);
     vGpTextStream.WriteString(GetJsonMail);
     fIdHTTP.Post('https://api.sendgrid.com/v3/mail/send', RequestUTF8);
+    Result := Pos('202',fIdHTTP.ResponseText) > 0;
   finally
     RequestUTF8.Free;
     vGpTextStream.Free;
@@ -329,4 +359,9 @@ begin
   Result := FParam;
 end;
 
-end.
+function TSendGrid.GetContentId: string;
+begin
+  Result := fContentId;
+end;
+
+end.
