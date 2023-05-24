@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 254
-  Top = 146
+  Left = 256
+  Top = 148
   Width = 924
   Height = 480
   Caption = 'Form1'
@@ -19,7 +19,7 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'Enviar'
-    TabOrder = 1
+    TabOrder = 2
     OnClick = Button2Click
   end
   object Button1: TButton
@@ -28,18 +28,28 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'Anexos'
-    TabOrder = 2
+    TabOrder = 3
     OnClick = Button1Click
   end
   object Memo1: TMemo
     Left = 0
     Top = 0
-    Width = 916
-    Height = 331
+    Width = 908
+    Height = 153
     Align = alTop
     Lines.Strings = (
       'Memo1')
     TabOrder = 0
+  end
+  object Memo_Emails: TMemo
+    Left = 0
+    Top = 153
+    Width = 908
+    Height = 159
+    Align = alTop
+    Lines.Strings = (
+      'Memo_Emails')
+    TabOrder = 1
   end
   object OpenDialog1: TOpenDialog
     Options = [ofHideReadOnly, ofAllowMultiSelect, ofEnableSizing]

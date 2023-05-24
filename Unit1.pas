@@ -14,6 +14,7 @@ type
     OpenDialog1: TOpenDialog;
     Button1: TButton;
     Memo1: TMemo;
+    Memo_Emails: TMemo;
     procedure Button2Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
   private
@@ -35,17 +36,21 @@ uses
 procedure TForm1.Button2Click(Sender: TObject);
 var
   SendGrid : TSendGrid;
+  i : Integer;
 begin
-  SendGrid := TSendGrid.Create('your key here');
+  SendGrid := TSendGrid.Create('yourpasswordapi');
   with SendGrid do
   try
-    ToMail := 'youremail';
-    ToName := 'toname';
-    ToSubject := 'Testing';
-    FromMail := 'fromemail';
-    FromName := 'FromName';
+    ToMail := 'test@test.com';
+    ToName := 'TO NAME';
+    ToSubject := 'Contactando o email corretamente';
+    FromMail := 'noreply@youremail.com';
+    FromName := 'EMPRESA TESTE';
+    ReplyTo  := 'replay@emailreplay.com';
+    ReplyToName := 'TESTE RESPOSTA';
     ContentType := 'text/html';
     ContentValue := Memo1.Lines.GetText;
+    ContentId := 'logo';
     FileName.AddStrings(OpenDialog1.Files);
     SendMail;
   finally
