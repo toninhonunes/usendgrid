@@ -1,7 +1,6 @@
 program sendgrid;
 
 uses
-  ExceptionLog,
   Forms,
   Unit1 in 'Unit1.pas' {Form1},
   usendgrid in 'usendgrid.pas',
